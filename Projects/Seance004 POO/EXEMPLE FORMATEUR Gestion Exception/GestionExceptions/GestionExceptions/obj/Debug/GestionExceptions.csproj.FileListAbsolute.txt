@@ -1,0 +1,37 @@
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.Messages.resources
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\04 Programmation Objet P2\Exemples\03 Exceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\GestionExceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+E:\Visual Studio 2015\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+E:\Visual Studio 2015\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csprojResolveAssemblyReference.cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.Messages.resources
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.csproj.GenerateResource.Cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance004 POO\GestionExceptions\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance004 POO\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance004 POO\GestionExceptions\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance004 POO\EXEMPLE FORMATEUR Gestion Exception\GestionExceptions\GestionExceptions\bin\Debug\GestionExceptions.exe.config
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance004 POO\EXEMPLE FORMATEUR Gestion Exception\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance004 POO\EXEMPLE FORMATEUR Gestion Exception\GestionExceptions\GestionExceptions\obj\Debug\GestionExceptions.pdb

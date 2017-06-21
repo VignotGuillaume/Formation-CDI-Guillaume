@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio 14.0\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="14.0">
+ <Targets>
+  <Target Name="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll\bin\Debug\SalarieDll.dll">
+   <Modules>
+    <Module Name="salariedll.dll">
+     <Namespaces>
+      <Namespace Name="SalarieDll">
+       <Types>
+        <Type Name="Salarie" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#.ctor(SalarieDll.Salarie)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214" Status="Active" Created="2017-06-16 08:47:50Z" FixCategory="NonBreaking">
+             <Issue Certainty="95" Level="CriticalWarning" Path="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll" File="Salarie.cs" Line="313">'Salarie.Salarie(Salarie)' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;Salarie..ctor(Salarie)&#xD;&#xA;Salarie.set_SalaireBrut(Decimal):Void</Issue>
+             <Issue Certainty="95" Level="CriticalWarning" Path="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll" File="Salarie.cs" Line="313">'Salarie.Salarie(Salarie)' contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : &#xD;&#xA;&#xD;&#xA;Salarie..ctor(Salarie)&#xD;&#xA;Salarie.set_TauxCS(Decimal):Void</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SalarieS" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Members>
+          <Member Name="#Loadtext(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ne pas supprimer d'objets plusieurs fois" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-06-16 08:47:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll" File="SalarieS.cs" Line="168">L'objet 'fs' peut être supprimé plusieurs fois dans la méthode 'SalarieS.Loadtext(string)'. Pour éviter de générer un System.ObjectDisposedException, n'appelez pas la méthode Dispose plus d'une fois par objet.: Lines: 168, 169</Issue>
+             <Issue Certainty="75" Level="Warning" Path="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll" File="SalarieS.cs" Line="169">L'objet 'sr' peut être supprimé plusieurs fois dans la méthode 'SalarieS.Loadtext(string)'. Pour éviter de générer un System.ObjectDisposedException, n'appelez pas la méthode Dispose plus d'une fois par objet.: Lines: 169</Issue>
+            </Message>
+           </Messages>
+          </Member>
+          <Member Name="#Savetext(System.String)" Kind="Method" Static="False" Accessibility="Public" ExternallyVisible="True">
+           <Messages>
+            <Message TypeName="Ne pas supprimer d'objets plusieurs fois" Category="Microsoft.Usage" CheckId="CA2202" Status="Active" Created="2017-06-16 08:47:50Z" FixCategory="DependsOnFix">
+             <Issue Certainty="75" Level="Warning" Path="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll" File="SalarieS.cs" Line="91">L'objet 'fs' peut être supprimé plusieurs fois dans la méthode 'SalarieS.Savetext(string)'. Pour éviter de générer un System.ObjectDisposedException, n'appelez pas la méthode Dispose plus d'une fois par objet.: Lines: 91, 92</Issue>
+             <Issue Certainty="75" Level="Warning" Path="E:\Visual Studio 2015\Projects\Serialisation\SalarieDll" File="SalarieS.cs" Line="92">L'objet 'sw' peut être supprimé plusieurs fois dans la méthode 'SalarieS.Savetext(string)'. Pour éviter de générer un System.ObjectDisposedException, n'appelez pas la méthode Dispose plus d'une fois par objet.: Lines: 92</Issue>
+            </Message>
+           </Messages>
+          </Member>
+         </Members>
+        </Type>
+        <Type Name="SalariesHS" Kind="Class" Accessibility="Public" ExternallyVisible="True">
+         <Messages>
+          <Message TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237" Status="Active" Created="2017-06-16 08:47:50Z" FixCategory="NonBreaking">
+           <Issue Certainty="75" Level="Warning">Ajoutez [Serializable] à 'SalariesHS', car ce type implémente ISerializable.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="DoNotCallOverridableMethodsInConstructors" Category="Microsoft.Usage" CheckId="CA2214">
+   <Name>N'appelez pas de méthodes substituables dans les constructeurs</Name>
+   <Description>Vous ne devez pas appeler des méthodes virtuelles définies dans la classe à partir de constructeurs. Si une classe dérivée a remplacé la méthode, la version de la classe dérivée est appelée (avant le constructeur de classe dérivée).</Description>
+   <Resolution Name="Default">{0} contient une chaîne d'appel aboutissant à un appel vers une méthode virtuelle définie par la classe. Vérifiez le parcours de pile suivant et analysez-y toutes les conséquences imprévisibles : {1}</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182331.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalWarning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="MarkISerializableTypesWithSerializable" Category="Microsoft.Usage" CheckId="CA2237">
+   <Name>Marquer les types ISerializable avec SerializableAttribute</Name>
+   <Description>L'interface System.Runtime.Serialization.ISerializable permet au type de personnaliser sa sérialisation tandis que l'attribut Serializable offre la possibilité au Common Language Runtime de reconnaître le type comme élément sérialisable.</Description>
+   <Resolution Name="Default">Ajoutez [Serializable] à {0}, car ce type implémente ISerializable.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182350.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="usagerules.dll" Version="14.0.0.0" />
+  </Rule>
+  <Rule TypeName="Ne pas supprimer d'objets plusieurs fois" Category="Microsoft.Usage" CheckId="CA2202">
+   <Name>Ne pas supprimer d'objets plusieurs fois</Name>
+   <Description>Il est possible d'appeler plusieurs fois une méthode Dispose correctement implémentée sans lever d'exception. La réussite de l'opération n'est toutefois pas garantie et, pour éviter de générer un System.ObjectDisposedException, n'appelez pas cette méthode plus d'une fois par objet.</Description>
+   <Resolution Name="Default">L'objet {0} peut être supprimé plusieurs fois dans la méthode {1}. Pour éviter de générer un System.ObjectDisposedException, n'appelez pas la méthode Dispose plus d'une fois par objet.: Lines: 169</Resolution>
+   <Owner>RuleOwner</Owner>
+   <Url>http://msdn.microsoft.com/library/ms182334.aspx</Url>
+   <Email />
+   <MessageLevel Certainty="75">Warning</MessageLevel>
+   <File Name="dataflowrules.dll" Version="14.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Catégorie</String>
+  <String Key="Certainty">Certitude</String>
+  <String Key="CollapseAll">Réduire tout</String>
+  <String Key="CheckId">ID de contrôle</String>
+  <String Key="Error">Erreur</String>
+  <String Key="Errors">erreur(s)</String>
+  <String Key="ExpandAll">Développer tout</String>
+  <String Key="Help">Aide</String>
+  <String Key="Line">Ligne</String>
+  <String Key="Messages">message(s)</String>
+  <String Key="LocationNotStoredInPdb">[Emplacement non stocké dans le fichier Pdb]</String>
+  <String Key="Project">Projet</String>
+  <String Key="Resolution">Résolution</String>
+  <String Key="Rule">Règle</String>
+  <String Key="RuleFile">Fichier de règles</String>
+  <String Key="RuleDescription">Description de la règle</String>
+  <String Key="Source">Source</String>
+  <String Key="Status">État</String>
+  <String Key="Target">Cible</String>
+  <String Key="Warning">Avertissement</String>
+  <String Key="Warnings">avertissement(s)</String>
+  <String Key="ReportTitle">Rapport d'analyse du code</String>
+ </Localized>
+</FxCopReport>

@@ -1,0 +1,9 @@
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\bin\Debug\S005A001InterfaceGraphique.exe.config
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\bin\Debug\S005A001InterfaceGraphique.exe
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\bin\Debug\S005A001InterfaceGraphique.pdb
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\obj\Debug\S005A001Recopie.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\obj\Debug\S005A001InterfaceGraphique.Recopier.resources
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\obj\Debug\S005A001InterfaceGraphique.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\obj\Debug\S005A001Recopie.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\obj\Debug\S005A001InterfaceGraphique.exe
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001InterfaceGraphique\obj\Debug\S005A001InterfaceGraphique.pdb

@@ -1,0 +1,6 @@
+c:\users\cdi\documents\visual studio 2015\Projects\atelier 3 exercice 6 (7)\atelier 3 exercice 6 (7)\bin\Debug\atelier 3 exercice 6 (7).exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Atelier 3 exercice 6 (7)\atelier 3 exercice 6 (7)\bin\Debug\atelier 3 exercice 6 (7).exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Atelier 3 exercice 6 (7)\atelier 3 exercice 6 (7)\bin\Debug\atelier 3 exercice 6 (7).pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Atelier 3 exercice 6 (7)\atelier 3 exercice 6 (7)\obj\Debug\atelier 3 exercice 6 (7).csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Atelier 3 exercice 6 (7)\atelier 3 exercice 6 (7)\obj\Debug\atelier 3 exercice 6 (7).exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\Atelier 3 exercice 6 (7)\atelier 3 exercice 6 (7)\obj\Debug\atelier 3 exercice 6 (7).pdb

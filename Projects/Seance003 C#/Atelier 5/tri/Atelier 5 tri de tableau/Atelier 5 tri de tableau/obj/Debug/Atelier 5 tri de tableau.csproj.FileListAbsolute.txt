@@ -1,0 +1,8 @@
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier 5 tri de tableau\Atelier 5 tri de tableau\bin\Debug\Atelier 5 tri de tableau.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier 5 tri de tableau\Atelier 5 tri de tableau\obj\Debug\Atelier 5 tri de tableau.csprojResolveAssemblyReference.cache
+E:\support\Atelier 5 tri de tableau\Atelier 5 tri de tableau\bin\Debug\Atelier 5 tri de tableau.exe.config
+E:\support\Atelier 5 tri de tableau\Atelier 5 tri de tableau\bin\Debug\Atelier 5 tri de tableau.exe
+E:\support\Atelier 5 tri de tableau\Atelier 5 tri de tableau\bin\Debug\Atelier 5 tri de tableau.pdb
+E:\support\Atelier 5 tri de tableau\Atelier 5 tri de tableau\obj\Debug\Atelier 5 tri de tableau.csprojResolveAssemblyReference.cache
+E:\support\Atelier 5 tri de tableau\Atelier 5 tri de tableau\obj\Debug\Atelier 5 tri de tableau.exe
+E:\support\Atelier 5 tri de tableau\Atelier 5 tri de tableau\obj\Debug\Atelier 5 tri de tableau.pdb

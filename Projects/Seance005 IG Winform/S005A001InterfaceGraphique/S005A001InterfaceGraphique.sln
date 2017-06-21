@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S005A001Recopie", "S005A001InterfaceGraphique\S005A001Recopie.csproj", "{64E07DF8-9F53-4F05-B744-51E867C00AD2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "S005A001Additionneur", "S005A001Additionneur\S005A001Additionneur.csproj", "{6EDB7610-A7B2-4356-8072-6179905EF4A9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkbox et radiobutton", "Checkbox et radiobutton\Checkbox et radiobutton.csproj", "{28E3E510-E7E8-49F9-BAFD-282B10F8B7B5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{64E07DF8-9F53-4F05-B744-51E867C00AD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64E07DF8-9F53-4F05-B744-51E867C00AD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64E07DF8-9F53-4F05-B744-51E867C00AD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64E07DF8-9F53-4F05-B744-51E867C00AD2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EDB7610-A7B2-4356-8072-6179905EF4A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EDB7610-A7B2-4356-8072-6179905EF4A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EDB7610-A7B2-4356-8072-6179905EF4A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EDB7610-A7B2-4356-8072-6179905EF4A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28E3E510-E7E8-49F9-BAFD-282B10F8B7B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28E3E510-E7E8-49F9-BAFD-282B10F8B7B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28E3E510-E7E8-49F9-BAFD-282B10F8B7B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28E3E510-E7E8-49F9-BAFD-282B10F8B7B5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

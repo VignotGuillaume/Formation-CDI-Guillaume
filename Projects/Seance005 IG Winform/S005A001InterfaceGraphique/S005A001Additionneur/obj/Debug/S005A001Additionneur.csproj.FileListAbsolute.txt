@@ -1,0 +1,9 @@
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\bin\Debug\S005A001Additionneur.exe.config
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\bin\Debug\S005A001Additionneur.exe
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\bin\Debug\S005A001Additionneur.pdb
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\obj\Debug\S005A001Additionneur.Additioneur.resources
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\obj\Debug\S005A001Additionneur.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\obj\Debug\S005A001Additionneur.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\obj\Debug\S005A001Additionneur.exe
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\obj\Debug\S005A001Additionneur.pdb
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\S005A001Additionneur\obj\Debug\S005A001Additionneur.csprojResolveAssemblyReference.cache

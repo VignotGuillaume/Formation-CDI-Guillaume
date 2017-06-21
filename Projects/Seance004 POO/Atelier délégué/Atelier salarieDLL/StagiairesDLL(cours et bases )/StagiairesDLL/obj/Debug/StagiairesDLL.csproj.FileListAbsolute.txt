@@ -1,0 +1,10 @@
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\StagiairesDLL\bin\Debug\StagiairesDLL.dll
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\StagiairesDLL\bin\Debug\StagiairesDLL.pdb
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\StagiairesDLL\obj\Debug\StagiairesDLL.csprojResolveAssemblyReference.cache
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\StagiairesDLL\obj\Debug\StagiairesDLL.dll
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\StagiairesDLL\obj\Debug\StagiairesDLL.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\StagiairesDLL\bin\Debug\StagiairesDLL.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\StagiairesDLL\bin\Debug\StagiairesDLL.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\StagiairesDLL\obj\Debug\StagiairesDLL.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\StagiairesDLL\obj\Debug\StagiairesDLL.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\StagiairesDLL\obj\Debug\StagiairesDLL.pdb

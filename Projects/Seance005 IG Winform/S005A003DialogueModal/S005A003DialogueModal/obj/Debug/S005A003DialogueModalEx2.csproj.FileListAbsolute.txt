@@ -1,0 +1,23 @@
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.exe.config
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.exe
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.pdb
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModalEx2.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.Identification.resources
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModalEx2.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.exe
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.pdb
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.FrmDepart.resources
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx2\bin\Debug\S005A003DialogueModal.exe.config
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx2\obj\Debug\S005A003DialogueModal.exe
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx2\obj\Debug\S005A003DialogueModal.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.exe.config
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModalEx2.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.FrmDepart.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.Identification.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModalEx2.csproj.GenerateResource.Cache

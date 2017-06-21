@@ -1,0 +1,9 @@
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\bin\Debug\Checkbox et radiobutton.exe.config
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\bin\Debug\Checkbox et radiobutton.exe
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\bin\Debug\Checkbox et radiobutton.pdb
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\obj\Debug\Checkbox_et_radiobutton.CheckboxRadio.resources
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\obj\Debug\Checkbox_et_radiobutton.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\obj\Debug\Checkbox et radiobutton.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\obj\Debug\Checkbox et radiobutton.exe
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\obj\Debug\Checkbox et radiobutton.pdb
+E:\Visual Studio 2015\Projects\S005A001InterfaceGraphique\Checkbox et radiobutton\obj\Debug\Checkbox et radiobutton.csprojResolveAssemblyReference.cache

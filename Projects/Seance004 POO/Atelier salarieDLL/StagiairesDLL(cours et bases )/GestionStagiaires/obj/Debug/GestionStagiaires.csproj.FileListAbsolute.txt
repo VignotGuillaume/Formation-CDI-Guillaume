@@ -1,0 +1,16 @@
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\bin\Debug\GestionStagiaires.exe.config
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\bin\Debug\GestionStagiaires.exe
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\bin\Debug\GestionStagiaires.pdb
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\bin\Debug\StagiairesDLL.dll
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\bin\Debug\StagiairesDLL.pdb
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\obj\Debug\GestionStagiaires.csprojResolveAssemblyReference.cache
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\obj\Debug\GestionStagiaires.exe
+D:\CDI\Documents\Dami\17 - 06 - 06 - Développer Objet - concepts de base\StagiairesDLL\GestionStagiaires\obj\Debug\GestionStagiaires.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\bin\Debug\GestionStagiaires.exe.config
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\obj\Debug\GestionStagiaires.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\obj\Debug\GestionStagiaires.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\bin\Debug\GestionStagiaires.exe
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\bin\Debug\GestionStagiaires.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\bin\Debug\StagiairesDLL.dll
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\bin\Debug\StagiairesDLL.pdb
+C:\Users\CDI\Documents\Visual Studio 2015\Projects\StagiairesDLL\GestionStagiaires\obj\Debug\GestionStagiaires.csprojResolveAssemblyReference.cache

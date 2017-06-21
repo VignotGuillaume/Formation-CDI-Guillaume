@@ -1,0 +1,18 @@
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.exe.config
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.exe
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.pdb
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.Damier_8x8_NB.resources
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.exe
+E:\Visual Studio 2015\Projects\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.pdb
+F:\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.exe.config
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.exe
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.pdb
+F:\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.exe
+F:\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.pdb
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.csprojResolveAssemblyReference.cache
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.Damier_8x8_NB.resources
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.Properties.Resources.resources
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.csproj.GenerateResource.Cache

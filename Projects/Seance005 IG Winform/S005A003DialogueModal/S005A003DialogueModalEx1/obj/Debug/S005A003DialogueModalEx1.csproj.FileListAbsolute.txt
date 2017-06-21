@@ -1,0 +1,10 @@
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\bin\Debug\S005A003DialogueModalEx1.exe.config
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\bin\Debug\S005A003DialogueModalEx1.exe
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\bin\Debug\S005A003DialogueModalEx1.pdb
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.FrmDialogueModal.resources
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.exe
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.pdb
+E:\Visual Studio 2015\Projects\S005A003DialogueModal\S005A003DialogueModalEx1\obj\Debug\S005A003DialogueModalEx1.FrmDialogueModal2.resources

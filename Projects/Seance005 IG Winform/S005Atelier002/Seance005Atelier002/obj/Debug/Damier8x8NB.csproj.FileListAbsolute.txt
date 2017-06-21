@@ -1,0 +1,9 @@
+F:\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.exe.config
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.exe
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.pdb
+F:\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.exe
+F:\Seance005Atelier002\Seance005Atelier002\bin\Debug\Seance005Atelier002.pdb
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Damier8x8NB.csprojResolveAssemblyReference.cache
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.Damier_8x8_NB.resources
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Seance005Atelier002.Properties.Resources.resources
+F:\Seance005Atelier002\Seance005Atelier002\obj\Debug\Damier8x8NB.csproj.GenerateResource.Cache

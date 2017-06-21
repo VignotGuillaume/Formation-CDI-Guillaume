@@ -1,0 +1,6 @@
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier1\Atelier1\bin\Debug\Atelier1.exe.config
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier1\Atelier1\obj\Debug\Atelier1.csprojResolveAssemblyReference.cache
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier1\Atelier1\bin\Debug\Atelier1.exe
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier1\Atelier1\bin\Debug\Atelier1.pdb
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier1\Atelier1\obj\Debug\Atelier1.exe
+c:\users\cdi\documents\visual studio 2015\Projects\Atelier1\Atelier1\obj\Debug\Atelier1.pdb

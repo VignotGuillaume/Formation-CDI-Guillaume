@@ -1,0 +1,27 @@
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\bin\Debug\Serialisation.exe.config
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\bin\Debug\Serialisation.exe
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\bin\Debug\Serialisation.pdb
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\obj\Debug\Serialisation.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\obj\Debug\Serialisation.exe
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\obj\Debug\Serialisation.pdb
+C:\Users\guigui\Desktop\Serialisation\Serialisation\bin\Debug\Serialisation.exe.config
+C:\Users\guigui\Desktop\Serialisation\Serialisation\obj\Debug\Serialisation.exe
+C:\Users\guigui\Desktop\Serialisation\Serialisation\obj\Debug\Serialisation.pdb
+F:\serialisation\Serialisation\Serialisation\bin\Debug\Serialisation.exe.config
+F:\serialisation\Serialisation\Serialisation\obj\Debug\Serialisation.exe
+F:\serialisation\Serialisation\Serialisation\obj\Debug\Serialisation.pdb
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\bin\Debug\SalarieDll.dll
+E:\Visual Studio 2015\Projects\Serialisation\Serialisation\bin\Debug\SalarieDll.pdb
+C:\Users\guigui\Desktop\Serialisation\Serialisation\bin\Debug\Serialisation.exe
+C:\Users\guigui\Desktop\Serialisation\Serialisation\bin\Debug\Serialisation.pdb
+C:\Users\guigui\Desktop\Serialisation\Serialisation\bin\Debug\SalarieDll.dll
+C:\Users\guigui\Desktop\Serialisation\Serialisation\bin\Debug\SalarieDll.pdb
+C:\Users\guigui\Desktop\Serialisation\Serialisation\obj\Debug\Serialisation.csprojResolveAssemblyReference.cache
+F:\c#\POO\Serialisation\Serialisation\bin\Debug\Serialisation.exe.config
+F:\c#\POO\Serialisation\Serialisation\obj\Debug\Serialisation.exe
+F:\c#\POO\Serialisation\Serialisation\obj\Debug\Serialisation.pdb
+F:\c#\POO\Serialisation\Serialisation\bin\Debug\Serialisation.exe
+F:\c#\POO\Serialisation\Serialisation\bin\Debug\Serialisation.pdb
+F:\c#\POO\Serialisation\Serialisation\bin\Debug\SalarieDll.dll
+F:\c#\POO\Serialisation\Serialisation\bin\Debug\SalarieDll.pdb
+F:\c#\POO\Serialisation\Serialisation\obj\Debug\Serialisation.csprojResolveAssemblyReference.cache

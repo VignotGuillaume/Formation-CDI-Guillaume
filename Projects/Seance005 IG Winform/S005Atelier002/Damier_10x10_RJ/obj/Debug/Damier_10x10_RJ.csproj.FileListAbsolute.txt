@@ -1,0 +1,18 @@
+F:\Seance005Atelier002\Damier_10x10_RJ\bin\Debug\Damier_10x10_RJ.exe.config
+F:\Seance005Atelier002\Damier_10x10_RJ\bin\Debug\Damier_10x10_RJ.exe
+F:\Seance005Atelier002\Damier_10x10_RJ\bin\Debug\Damier_10x10_RJ.pdb
+F:\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.csprojResolveAssemblyReference.cache
+F:\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.Damier10x10RJ.resources
+F:\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.Properties.Resources.resources
+F:\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.csproj.GenerateResource.Cache
+F:\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.exe
+F:\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\bin\Debug\Damier_10x10_RJ.exe.config
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\bin\Debug\Damier_10x10_RJ.exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\bin\Debug\Damier_10x10_RJ.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.Damier10x10RJ.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\Damier_10x10_RJ\obj\Debug\Damier_10x10_RJ.csproj.GenerateResource.Cache

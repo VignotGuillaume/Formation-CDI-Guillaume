@@ -1,0 +1,8 @@
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\bin\Debug\ex3 jouer avec les chaines.exe.config
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\bin\Debug\ex3 jouer avec les chaines.exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\bin\Debug\ex3 jouer avec les chaines.pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\obj\Debug\ex3_jouer_avec_les_chaines.Form1.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\obj\Debug\ex3_jouer_avec_les_chaines.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\obj\Debug\ex3 jouer avec les chaines.csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\obj\Debug\ex3 jouer avec les chaines.exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex3 jouer avec les chaines\obj\Debug\ex3 jouer avec les chaines.pdb

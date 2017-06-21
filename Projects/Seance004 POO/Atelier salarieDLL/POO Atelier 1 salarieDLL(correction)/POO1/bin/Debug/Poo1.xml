@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Poo1</name>
+    </assembly>
+    <members>
+        <member name="T:Poo1.Salarie">
+            <summary>
+            Type Salarie
+            </summary>
+        </member>
+        <member name="M:Poo1.Salarie.IsNomPrenomValide(System.String)">
+             <summary>
+             Verification de la conformite de la saisie pour les noms et prenoms.
+             Longueur comprise entre 3 et 30 caractères
+             Uniquement composé de lettres
+             </summary>
+             <param name="value"></param>
+             <returns></returns>
+            
+        </member>
+        <member name="M:Poo1.Salarie.IsMatriculeValide(System.String)">
+            <summary>
+            Vérifie que le matricule respecte les règles suivantes
+            Longueur 7 structure nnXXXnnn ou n est un digit et X une lettre
+            </summary>
+            <param name="value">La valeur du matricule</param>
+            <returns></returns>
+        </member>
+        <member name="M:Poo1.Salarie.#ctor">
+            <summary>
+            Constructeur par défaut
+            </summary>
+        </member>
+        <member name="M:Poo1.Salarie.#ctor(Poo1.Salarie)">
+            <summary>
+            Constructeur de recopie
+            </summary>
+            <param name="salarie"></param>
+        </member>
+        <member name="M:Poo1.Salarie.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Constructeur d'initialisation partielle
+            </summary>
+            <param name="nom"></param>
+            <param name="prenom"></param>
+            <param name="matricule"></param>
+        </member>
+        <member name="M:Poo1.Salarie.Finalize">
+            <summary>
+            Destructeur pour tests
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.NombreInstances">
+            <summary>
+            Nombres d'instances
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.Matricule">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.Nom">
+            <summary>
+            Nom du salarié
+            Longueur comprise entre 3 et 30 caractères. Ni caractères spéciaux ni chiffres 
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.Prenom">
+            <summary>
+            Prenom 
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.SalaireBrut">
+            <summary>
+            Salaire brut
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.TauxCS">
+            <summary>
+            Taux de charges sociales affecté
+            Ne peut excéder 0.6
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.DateNaissance">
+            <summary>
+            Date de naissance
+            Ne peut être antérieure au 1er janvier 1900 et postérieure à J -15 ans
+            </summary>
+        </member>
+        <member name="P:Poo1.Salarie.SalaireNet">
+            <summary>
+            Salaire touché par le salarie apres déduction des charges sociales
+            </summary>
+        </member>
+    </members>
+</doc>

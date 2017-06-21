@@ -1,0 +1,28 @@
+F:\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe.config
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe.config
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).pdb
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2_jouer_avec_les_caractere_d_une_chaine_de_caractere_.categorieDuCaractere.resources
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2_jouer_avec_les_caractere_d_une_chaine_de_caractere_.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe
+E:\Visual Studio 2015\Projects\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).pdb
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe.config
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).pdb
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).pdb
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).csprojResolveAssemblyReference.cache
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2_jouer_avec_les_caractere_d_une_chaine_de_caractere_.categorieDuCaractere.resources
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2_jouer_avec_les_caractere_d_une_chaine_de_caractere_.Properties.Resources.resources
+F:\c#\projet visual\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).csproj.GenerateResource.Cache
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe.config
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).exe
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\bin\Debug\ex2(jouer avec les caractere d une chaine de caractere).pdb
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).csprojResolveAssemblyReference.cache
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2_jouer_avec_les_caractere_d_une_chaine_de_caractere_.categorieDuCaractere.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2_jouer_avec_les_caractere_d_une_chaine_de_caractere_.Properties.Resources.resources
+E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\Seance005Atelier002\ex2(jouer avec les caractere d une chaine de caractere)\obj\Debug\ex2(jouer avec les caractere d une chaine de caractere).csproj.GenerateResource.Cache

@@ -1,0 +1,30 @@
+D:\CDIs\01 Composants Interface\02 Coder Fonction\Initiation Cs\Corrections\POO1\POO1\bin\Debug\POO1.dll
+D:\CDIs\01 Composants Interface\02 Coder Fonction\Initiation Cs\Corrections\POO1\POO1\bin\Debug\POO1.pdb
+D:\CDIs\01 Composants Interface\02 Coder Fonction\Initiation Cs\Corrections\POO1\POO1\obj\Debug\ResolveAssemblyReference.cache
+D:\CDIs\01 Composants Interface\02 Coder Fonction\Initiation Cs\Corrections\POO1\POO1\obj\Debug\POO1.dll
+D:\CDIs\01 Composants Interface\02 Coder Fonction\Initiation Cs\Corrections\POO1\POO1\obj\Debug\POO1.pdb
+D:\CDIs\01 Composants Interface\02 Coder Fonction\Initiation Cs\Corrections\POO1\POO1\bin\Debug\POO1.XML
+D:\_CDI\02 - Séances Formation\01 - Composants Interface\02 - Interface Utilisateur\03 - POO\02 Initiation Objet\POO1\POO1\bin\Debug\POO1.XML
+D:\_CDI\02 - Séances Formation\01 - Composants Interface\02 - Interface Utilisateur\03 - POO\02 Initiation Objet\POO1\POO1\bin\Debug\POO1.dll
+D:\_CDI\02 - Séances Formation\01 - Composants Interface\02 - Interface Utilisateur\03 - POO\02 Initiation Objet\POO1\POO1\bin\Debug\POO1.pdb
+D:\_CDI\02 - Séances Formation\01 - Composants Interface\02 - Interface Utilisateur\03 - POO\02 Initiation Objet\POO1\POO1\obj\Debug\POO1.dll
+D:\_CDI\02 - Séances Formation\01 - Composants Interface\02 - Interface Utilisateur\03 - POO\02 Initiation Objet\POO1\POO1\obj\Debug\POO1.pdb
+D:\_CDI\02 - Séances Formation\01 - Composants Interface\02 - Interface Utilisateur\03 - POO\02 Initiation Objet\POO1\POO1\obj\Debug\POO1.csprojResolveAssemblyReference.cache
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A001\POO1\POO1\bin\Debug\POO1.XML
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A001\POO1\POO1\bin\Debug\POO1.dll
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A001\POO1\POO1\bin\Debug\POO1.pdb
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A001\POO1\POO1\obj\Debug\POO1.dll
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A001\POO1\POO1\obj\Debug\POO1.pdb
+D:\__CDI\Mod01\04 C# Objet\Corrections Ateliers\A001\POO1\POO1\obj\Debug\POO1.csprojResolveAssemblyReference.cache
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\bin\Debug\Poo1.xml
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\bin\Debug\Poo1.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\bin\Debug\Poo1.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\obj\Debug\Poo1.dll
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\obj\Debug\Poo1.pdb
+D:\Parcours CDI Modulaire .Net\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\obj\Debug\POO1.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\bin\Debug\Poo1.xml
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\bin\Debug\Poo1.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\bin\Debug\Poo1.pdb
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\obj\Debug\POO1.csprojResolveAssemblyReference.cache
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\obj\Debug\Poo1.dll
+D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\03 Programmation Objet\Corrigés\A001\POO1\POO1\obj\Debug\Poo1.pdb

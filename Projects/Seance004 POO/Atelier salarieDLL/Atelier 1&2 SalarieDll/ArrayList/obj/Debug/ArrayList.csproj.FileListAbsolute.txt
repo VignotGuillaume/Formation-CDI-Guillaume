@@ -1,0 +1,8 @@
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\bin\Debug\ArrayList.exe.config
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\bin\Debug\ArrayList.exe
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\bin\Debug\ArrayList.pdb
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\bin\Debug\SalarieDll.dll
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\bin\Debug\SalarieDll.pdb
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\obj\Debug\ArrayList.csprojResolveAssemblyReference.cache
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\obj\Debug\ArrayList.exe
+C:\Users\CDI\Desktop\Atelier 1&2 SalarieDllv3\ArrayList\obj\Debug\ArrayList.pdb
