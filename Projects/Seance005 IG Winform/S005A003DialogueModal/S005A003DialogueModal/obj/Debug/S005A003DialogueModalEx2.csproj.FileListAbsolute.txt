@@ -21,3 +21,6 @@ E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003Dial
 E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.Identification.resources
 E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.Properties.Resources.resources
 E:\Visual Studio 2015\Projects\Seance 5 interface graphique winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModalEx2.csproj.GenerateResource.Cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance005 IG Winform\S005A003DialogueModal\S005A003DialogueModal\bin\Debug\S005A003DialogueModal.exe.config
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance005 IG Winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance005 IG Winform\S005A003DialogueModal\S005A003DialogueModal\obj\Debug\S005A003DialogueModal.pdb

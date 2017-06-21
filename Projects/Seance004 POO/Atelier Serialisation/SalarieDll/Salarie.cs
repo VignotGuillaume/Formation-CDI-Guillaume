@@ -347,9 +347,17 @@ namespace SalarieDll
 
     }
 
-   
+    //interface IcollectionMetier
+    //{
+    //    void Save(ISauvegarde sauvegarde,string pathRepData);
+    //    void Load(ISauvegarde sauvegarde ,string pathRepData);
+    //}
 
-
+    //public interface ISauvegarde
+    //{
+    //    void Save(string pathRepData, IEnumerable <objetASauvegarder>);
+    //    IEnumerable Load(string pathRepData, Type typeACharger);
+    //}
 
 }
 

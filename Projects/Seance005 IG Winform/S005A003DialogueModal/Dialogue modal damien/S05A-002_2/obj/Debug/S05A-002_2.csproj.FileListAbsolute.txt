@@ -21,3 +21,6 @@ D:\CDI\Documents\CDI\S05\S05A-002_2\S05A-002_2\obj\Debug\S05A_002_2.frmApp.resou
 D:\CDI\Documents\CDI\S05\S05A-002_2\S05A-002_2\obj\Debug\S05A_002_2.frmLogin.resources
 D:\CDI\Documents\CDI\S05\S05A-002_2\S05A-002_2\obj\Debug\S05A_002_2.Properties.Resources.resources
 D:\CDI\Documents\CDI\S05\S05A-002_2\S05A-002_2\obj\Debug\S05A-002_2.csproj.GenerateResource.Cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance005 IG Winform\S005A003DialogueModal\Dialogue modal damien\S05A-002_2\bin\Debug\S05A-002_2.exe.config
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance005 IG Winform\S005A003DialogueModal\Dialogue modal damien\S05A-002_2\obj\Debug\S05A-002_2.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Seance005 IG Winform\S005A003DialogueModal\Dialogue modal damien\S05A-002_2\obj\Debug\S05A-002_2.pdb
