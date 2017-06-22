@@ -39,3 +39,14 @@ E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synth�
 E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.xml
 E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.pdb
 E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe.config
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.exe
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.pdb
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.exe
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\CreerJeuxEssai.pdb
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.dll
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.dll
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.pdb
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\UtilisateursDLL.xml
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\bin\Debug\Utilitaires.pdb
+C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\CreerJeuxEssai\obj\Debug\CreerJeuxEssai.csprojResolveAssemblyReference.cache

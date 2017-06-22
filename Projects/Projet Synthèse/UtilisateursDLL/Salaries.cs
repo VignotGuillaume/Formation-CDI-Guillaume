@@ -28,28 +28,7 @@ namespace SalariesDll
         {
             if (!this.Contains(salarie))
             { base.Add(salarie); }
-        }
-
-
-
-
-        //public void Add(Commercial commercial)
-        //{
-        //    if (!this.Contains(commercial))
-        //    { base.Add(commercial); }
-        //}
-        //public void AddRange(IEnumerable<Commercial> salaries)
-        //{
-        //    foreach (Commercial item in salaries)
-        //    {
-        //        this.Add(item);
-        //    }
-        //}
-
-
-
-
-
+        }        
 
         /// <summary>
         /// Ajout une liste de salariés
@@ -62,12 +41,13 @@ namespace SalariesDll
                 this.Add(item);
             }
         }
+
+
         ///<summary>
         /// Extrait le salarié ayant le numéro de matricule fourni en argument
         /// </summary>
         /// <param name="Matricule"></param>
         /// <returns>Un salarié ou null si non trouvé</returns>
-
         public Salarie ExtraireSalarie(string Matricule)
         {
             foreach (Salarie salarie in this)
@@ -79,6 +59,7 @@ namespace SalariesDll
             }
             return null;
         }
+
         /// <summary>
         /// Extraire un salarie par son matricule
         /// </summary>
@@ -95,6 +76,7 @@ namespace SalariesDll
             }
             return null;
         }
+
         /// <summary>
         /// Extraction d'une liste spécialisée de salariés
         /// </summary>
@@ -135,6 +117,7 @@ namespace SalariesDll
             if (salrec != null) base.Remove(salrec);
 
         }
+
         /// <summary>
         /// Suppresion d'un salarié 
         /// </summary>
@@ -144,6 +127,7 @@ namespace SalariesDll
             Salarie salrec = this.ExtraireSalarie(matricule);
             if (salrec != null) base.Remove(salrec);
         }
+
         /// <summary>
         /// Sauvegarde
         /// </summary>
@@ -153,6 +137,7 @@ namespace SalariesDll
         {
             sauvegarde.Save(pathRepData, this);
         }
+
         /// <summary>
         /// Sauvegarde
         /// </summary>
@@ -161,7 +146,36 @@ namespace SalariesDll
         public void Load(Utilitaires.ISauvegarde sauvegarde, string pathRepData)
         {
             this.SymmetricExceptWith((Salaries)sauvegarde.Load(pathRepData, this.GetType()));
+
         }
+
+
+
+
+
+
+
+
+        //public void Add(Commercial commercial)
+        //{
+        //    if (!this.Contains(commercial))
+        //    { base.Add(commercial); }
+        //}
+        //public void AddRange(IEnumerable<Commercial> salaries)
+        //{
+        //    foreach (Commercial item in salaries)
+        //    {
+        //        this.Add(item);
+        //    }
+        //}
+
+
+
+
+
+
     }
+
+
 }
 

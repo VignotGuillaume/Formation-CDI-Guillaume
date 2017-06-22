@@ -18,11 +18,7 @@ namespace GestionSalaraies
         Salaries salaries;
         Salarie salarie;
         Commercial commercial;
-        public FrmSalaries()
-        {
-            InitializeComponent();
-        }
-
+        
         enum Contextes
         {
             Initial = 0,
@@ -32,12 +28,16 @@ namespace GestionSalaraies
             ModificationValider = 4,
             AjoutInitial = 5,
             AjoutValider = 6,
-            SupprimerInitial=7,
-            SupprimerValider=8
-            
+            SupprimerInitial = 7,
+            SupprimerValider = 8
+
 
         }
 
+        public FrmSalaries()
+        {
+            InitializeComponent();
+        }
 
         void GestionnaireContextes(Contextes contexte)
 
@@ -71,28 +71,45 @@ namespace GestionSalaraies
                 case Contextes.Modification:
                     button1Nouveau.Enabled = false;
                     groupBox1.Visible = true;
-                    flowLayoutPanel1.Enabled = false;
+                    //flowLayoutPanel1.Enabled = false;
                     flowLayoutPanel1.Enabled = true;
                     button2Modifier.Enabled = false;
                     button3Annuler.Enabled = true;
                     button4Valider.Enabled = true;
-                    textBoxMatricule.ReadOnly = true;
-                    textBoxNom.ReadOnly = true;
-                    textBoxPrenom.ReadOnly = true;
-                    textBoxDatedeNaissance.ReadOnly = true;
-                    textBoxSalaireBrut.ReadOnly = true;
-                    textBoxTauxCS.ReadOnly = true;
-                    textBoxChiffreAffaire.ReadOnly = true;
-                    textBoxCommission.ReadOnly = true;
+                    textBoxMatricule.ReadOnly = false;
+                    textBoxNom.ReadOnly = false;
+                    textBoxPrenom.ReadOnly = false;
+                    textBoxDatedeNaissance.ReadOnly = false;
+                    textBoxSalaireBrut.ReadOnly = false;
+                    textBoxTauxCS.ReadOnly = false;
+                    textBoxChiffreAffaire.ReadOnly = false;
+                    textBoxCommission.ReadOnly = false;
                     break;
                 case Contextes.ModificationAnnuler:
                     GestionnaireContextes(Contextes.Consultation);
                     break;
                 case Contextes.ModificationValider:
+                    GestionnaireContextes(Contextes.Consultation);
                     break;
                 case Contextes.AjoutInitial:
+                    button1Nouveau.Enabled = false;
+                    groupBox1.Visible = true;
+                    flowLayoutPanel1.Enabled = true;
+                    button2Modifier.Enabled = false;
+                    button3Annuler.Enabled = true;
+                    button4Valider.Enabled = true;
+                    textBoxMatricule.ReadOnly = false;
+                    textBoxNom.ReadOnly = false;
+                    textBoxPrenom.ReadOnly = false;
+                    textBoxDatedeNaissance.ReadOnly = false;
+                    textBoxSalaireBrut.ReadOnly = false;
+                    textBoxTauxCS.ReadOnly = false;
+                    textBoxChiffreAffaire.ReadOnly = false;
+                    textBoxCommission.ReadOnly = false;
                     break;
                 case Contextes.AjoutValider:
+                    GestionnaireContextes(Contextes.Consultation);
+
                     break;
                 default:
                     break;
@@ -110,36 +127,52 @@ namespace GestionSalaraies
             textBoxTauxCS.Text = salarie.ToString();
             textBoxChiffreAffaire.Text = commercial.ChiffreAffaire.ToString();
             textBoxCommission.Text = commercial.Commission.ToString();
-            
-            
+
+
         }
-        private void ModifierSalarie()
+       
+        private bool IsChampValid()
         {
-            //if (Salarie.IsMatriculeValide(textBoxMatricule.Text))
-            //{
-            //    try
-            //    {
-                    textBoxMatricule.Text = salarie.Matricule= textBoxMatricule.Text ;
-            salarie.Nom= textBoxNom.Text ;
-            salarie.Prenom=textBoxPrenom.Text  ;
-            salarie.DateNaissance= DateTime.Parse(textBoxDatedeNaissance.Text);
-            salarie.SalaireBrut= Decimal.Parse(textBoxSalaireBrut.Text)  ;
-            salarie.TauxCS= Decimal.Parse(textBoxTauxCS.Text)  ;
-            commercial.ChiffreAffaire= Decimal.Parse(textBoxChiffreAffaire.Text)  ;
-            commercial.Commission= Decimal.Parse(textBoxCommission.Text)  ;
-
+            bool matricule = true;            
+            if (!Salarie.IsMatriculeValide(textBoxMatricule.Text))
+            {
+                matricule = false;
+                epSalarie.SetError(textBoxMatricule, "Le matricule n'est pas valide");
+            }
+            else
+            {
+                epSalarie.SetError(textBoxMatricule, string.Empty);
+            }
+            return matricule;            
         }
 
+        private void ModifierSalarie()
+        {            
+            if (IsChampValid())
+            {
+                try
+                {
+                    textBoxMatricule.Text = salarie.Matricule ;
+                    salarie.Nom = textBoxNom.Text;
+                    salarie.Prenom = textBoxPrenom.Text;
+                    salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
+                    salarie.SalaireBrut = Decimal.Parse(textBoxSalaireBrut.Text);
+                    salarie.TauxCS = Decimal.Parse(textBoxTauxCS.Text);
+                    commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
+                    commercial.Commission = Decimal.Parse(textBoxCommission.Text);
+                }
+                catch (Exception)
+                {
 
-
-
+                }
+                
+            }
+        }
         
-
         private void ChargerSalaries()
         {
             salaries = new Salaries();
             commercial = new Commercial();
-
             ISauvegarde serialiseur = MonApplication.DispositifSauvegarde;
             salaries.Load(serialiseur, Properties.Settings.Default.AppData);
             foreach (Salarie item in salaries)
@@ -148,23 +181,14 @@ namespace GestionSalaraies
             }
         }
 
+        //---------------------------------------------------------------------------------------
+
         private void FrmSalaries_Load(object sender, EventArgs e)
         {
-            ChargerSalaries();             
+            ChargerSalaries();
             GestionnaireContextes(Contextes.Initial);
         }
-           
-
-        private void btnModifier_Click(object sender, EventArgs e)
-        {
-            GestionnaireContextes(Contextes.Modification);
-        }
-
-        private void btnAnnuler_Click(object sender, EventArgs e)
-        {
-            GestionnaireContextes(Contextes.ModificationAnnuler);
-        }
-
+        
         private void comboBox1ListeSalarie_SelectedIndexChanged(object sender, EventArgs e)
         {
             salarie = salaries.SalarieByMatricule(comboBox1ListeSalarie.Items[comboBox1ListeSalarie.SelectedIndex].ToString());
@@ -172,49 +196,100 @@ namespace GestionSalaraies
             GestionnaireContextes(Contextes.Consultation);
         }
 
-        private bool IsChampValid()
+        private void button3Annuler_Click(object sender, EventArgs e)
         {
-            bool matricule = true;
-            bool nom = true;
-            bool prenom = true;
-            bool dateNaissance = true;
-            bool salaireBrut = true;
-            bool tauxCs = true;
-            bool chiffreAffaire = true;
-            bool commission = true;
-
-            if (!Salarie.IsMatriculeValide(textBoxMatricule.Text))
-            {
-                matricule = false;
-                epSalarie.SetError(textBoxMatricule, "Le matricule n'est pas valide");
-
-            }
-            else
-            {
-                epSalarie.SetError(textBoxMatricule, string.Empty);
-            }
-             
-            return matricule;
-
-            if (!Salarie.IsNomPrenomValide(textBoxNom.Text))
-            {
-                nom = false;
-                epSalarie.SetError(textBoxNom, "Le matricule n'est pas valide");
-
-            }
-            else
-            {
-                epSalarie.SetError(textBoxNom, string.Empty);
-            }
-
-            return nom;
+            GestionnaireContextes(Contextes.ModificationAnnuler);
         }
 
-        
+        private void button2Modifier_Click(object sender, EventArgs e)
+        {
+            GestionnaireContextes(Contextes.Modification);
+        }
 
+        private void button1Nouveau_Click(object sender, EventArgs e)
+        {
 
+            GestionnaireContextes(Contextes.AjoutInitial);
 
+            if (IsChampValid())
+            {
+                try
+                {
+                    textBoxMatricule.Text = salarie.Matricule;
+                    salarie.Nom = textBoxNom.Text;
+                    salarie.Prenom = textBoxPrenom.Text;
+                    salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
+                    salarie.SalaireBrut = Decimal.Parse(textBoxSalaireBrut.Text);
+                    salarie.TauxCS = Decimal.Parse(textBoxTauxCS.Text);
+                    commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
+                    commercial.Commission = Decimal.Parse(textBoxCommission.Text);
+                }
+                catch (Exception)
+                {
+
+                }
+                GestionnaireContextes(Contextes.AjoutValider);
+            }
+        }
+
+        private void button4Valider_Click(object sender, EventArgs e)
+        {
+            if (IsChampValid())
+            {
+                try
+                {
+                    textBoxMatricule.Text = salarie.Matricule;
+                    salarie.Nom = textBoxNom.Text;
+                    salarie.Prenom = textBoxPrenom.Text;
+                    salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
+                    salarie.SalaireBrut = Decimal.Parse(textBoxSalaireBrut.Text);
+                    salarie.TauxCS = Decimal.Parse(textBoxTauxCS.Text);
+                    commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
+                    commercial.Commission = Decimal.Parse(textBoxCommission.Text);
+                }
+                catch (Exception)
+                {
+
+                }
+                GestionnaireContextes(Contextes.Consultation);
+            }
+        }
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    //--------------------------------------------------------------------------------
+
+    //bool nom = true;
+    //bool prenom = true;
+    //bool dateNaissance = true;
+    //bool salaireBrut = true;
+    //bool tauxCs = true;
+    //bool chiffreAffaire = true;
+    //bool commission = true;
+
+
+    //if (!Salarie.IsNomPrenomValide(textBoxNom.Text))
+    //{
+    //    nom = false;
+    //    epSalarie.SetError(textBoxNom, "Le matricule n'est pas valide");
+
+    //}
+    //else
+    //{
+    //    epSalarie.SetError(textBoxNom, string.Empty);
+    //}
+
+    //return nom;
 }
 
 

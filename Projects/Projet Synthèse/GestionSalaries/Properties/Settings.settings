@@ -3,7 +3,7 @@
   <Profiles />
   <Settings>
     <Setting Name="AppData" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">E:\</Value>
+      <Value Profile="(Default)">C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Data</Value>
     </Setting>
     <Setting Name="Temps" Type="System.String" Scope="User">
       <Value Profile="(Default)">3</Value>

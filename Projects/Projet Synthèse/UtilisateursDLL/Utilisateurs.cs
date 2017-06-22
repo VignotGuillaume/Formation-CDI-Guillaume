@@ -37,7 +37,7 @@ namespace SalariesDll
             }
             return null;
         }
-        public IEnumerable<Utilisateur> UtilisateurByDebutNom(string debutNom)
+        public IEnumerable<Utilisateur> utilisateurNomCommencePar(string debutNom)
         {
             HashSet<Utilisateur> liste = new HashSet<Utilisateur>();
             foreach (Utilisateur utilisateur in this)
@@ -49,6 +49,31 @@ namespace SalariesDll
             }
             return liste;
         }
+        public Utilisateurs UtilisateursNomCommencePar(string debutNom)
+        {
+            Utilisateurs utilisateurs = new Utilisateurs();
+            foreach (Utilisateur item in this)
+            {
+                if (item.Nom.StartsWith(debutNom))
+                {
+                    utilisateurs.Add(item);
+                }
+            }
+            return utilisateurs;
+        }
+        //public Salaries SalariesNomCommencePar(string DebutNom)
+        //{
+        //    Salaries salaries = new Salaries();
+        //    foreach (Salarie item in this)
+        //    {
+        //        if (item.Nom.StartsWith(DebutNom))
+        //        {
+        //            salaries.Add(item);
+
+        //        }
+        //    }
+
+        //    return salaries;
         /// <summary>
         /// Ajout d'un nouvel utilisateur 
         /// Se substitue à la méthode de base
@@ -78,6 +103,7 @@ namespace SalariesDll
         {
             this.SymmetricExceptWith((Utilisateurs)sauvegarde.Load(pathRepData, this.GetType()));
         }
-    
+
+       
     }
 }

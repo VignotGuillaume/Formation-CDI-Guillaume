@@ -111,6 +111,7 @@
             this.button1Nouveau.TabIndex = 10;
             this.button1Nouveau.Text = "Nouveau";
             this.button1Nouveau.UseVisualStyleBackColor = true;
+            this.button1Nouveau.Click += new System.EventHandler(this.button1Nouveau_Click);
             // 
             // label1
             // 
@@ -262,6 +263,7 @@
             this.button2Modifier.TabIndex = 0;
             this.button2Modifier.Text = "Modifier";
             this.button2Modifier.UseVisualStyleBackColor = true;
+            this.button2Modifier.Click += new System.EventHandler(this.button2Modifier_Click);
             // 
             // button3Annuler
             // 
@@ -271,6 +273,7 @@
             this.button3Annuler.TabIndex = 1;
             this.button3Annuler.Text = "Annuler";
             this.button3Annuler.UseVisualStyleBackColor = true;
+            this.button3Annuler.Click += new System.EventHandler(this.button3Annuler_Click);
             // 
             // button4Valider
             // 
@@ -280,6 +283,7 @@
             this.button4Valider.TabIndex = 2;
             this.button4Valider.Text = "Valider";
             this.button4Valider.UseVisualStyleBackColor = true;
+            this.button4Valider.Click += new System.EventHandler(this.button4Valider_Click);
             // 
             // epSalarie
             // 

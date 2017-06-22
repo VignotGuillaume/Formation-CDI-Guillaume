@@ -48,6 +48,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.epUtilisateur = new System.Windows.Forms.ErrorProvider(this.components);
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
+            this.label6 = new System.Windows.Forms.Label();
+            this.comboBoxNom = new System.Windows.Forms.ComboBox();
             this.gbDetailUtilisateur.SuspendLayout();
             this.pnlBoutons.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.epUtilisateur)).BeginInit();
@@ -175,6 +177,7 @@
             this.txtNom.Name = "txtNom";
             this.txtNom.Size = new System.Drawing.Size(132, 20);
             this.txtNom.TabIndex = 1;
+            this.txtNom.TextChanged += new System.EventHandler(this.cbUtilisateurs_SelectedIndexChanged);
             // 
             // txtMotDePasse
             // 
@@ -237,11 +240,32 @@
             // 
             this.epUtilisateur.ContainerControl = this;
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(30, 83);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(103, 13);
+            this.label6.TabIndex = 4;
+            this.label6.Text = "Recherche par Nom";
+            // 
+            // comboBoxNom
+            // 
+            this.comboBoxNom.FormattingEnabled = true;
+            this.comboBoxNom.Location = new System.Drawing.Point(141, 80);
+            this.comboBoxNom.Margin = new System.Windows.Forms.Padding(2);
+            this.comboBoxNom.Name = "comboBoxNom";
+            this.comboBoxNom.Size = new System.Drawing.Size(166, 21);
+            this.comboBoxNom.TabIndex = 5;
+            this.comboBoxNom.SelectedIndexChanged += new System.EventHandler(this.comboBoxNom_SelectedIndexChanged);
+            // 
             // FrmUtilisateurs
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 457);
+            this.Controls.Add(this.comboBoxNom);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.gbDetailUtilisateur);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.cbUtilisateurs);
@@ -281,5 +305,7 @@
         private System.Windows.Forms.CheckBox chkCompteBloque;
         private System.Windows.Forms.ErrorProvider epUtilisateur;
         private System.Windows.Forms.BindingSource bindingSource1;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.ComboBox comboBoxNom;
     }
 }

@@ -19,8 +19,9 @@ namespace GestionSalaraies
         Utilisateurs utilisateurs;
         Roles roles;
         Utilisateur utilisateur;
-      
-        
+        IEnumerable<Utilisateur> liste;
+
+
 
         enum Contextes
         {
@@ -49,6 +50,7 @@ namespace GestionSalaraies
                     cbUtilisateurs.Enabled = (cbUtilisateurs.Items.Count>0);
                     btnNouveau.Enabled = true;
                     gbDetailUtilisateur.Visible = false;
+                    
                     break;
                 case Contextes.Consultation:
                     btnNouveau.Enabled = true;
@@ -107,6 +109,7 @@ namespace GestionSalaraies
                 }
             }
         }
+
         private void ModifierUtilisateur()
         {
 
@@ -153,7 +156,6 @@ namespace GestionSalaraies
             return valid;
         }
 
-
         private void ChargerRoles()
         {
             roles = new Roles();
@@ -199,6 +201,15 @@ namespace GestionSalaraies
         private void btnAnnuler_Click(object sender, EventArgs e)
         {
             GestionnaireContextes(Contextes.ModificationAnnuler);
+        }
+
+        
+
+        private void comboBoxNom_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            utilisateurs = utilisateurs.UtilisateursNomCommencePar(comboBoxNom.Items[comboBoxNom.SelectedIndex].ToString());
+            ChargerValeursUtilisateur();
+            GestionnaireContextes(Contextes.Consultation);
         }
     }
 }
