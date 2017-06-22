@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace GestionSalaraies 
+namespace GestionSalaraies
 {
     public partial class DialConnexion : Form
     {
@@ -16,6 +16,8 @@ namespace GestionSalaraies
         {
             InitializeComponent();
         }
+
+
         #region Gestionnaires Evenements Validation
 
         /// <summary>
@@ -71,10 +73,9 @@ namespace GestionSalaraies
 
 
 
-        private void btnQuitter_Click(object sender, EventArgs e)
-        {
-            this.DialogResult = DialogResult.Cancel;
-        }
+        #region Controles
+
+
 
         private bool IsIdCorrect(string id)
         {
@@ -91,7 +92,29 @@ namespace GestionSalaraies
             return (motPasse == id);
         }
 
+        #endregion
 
+        #region EvenementBouton
+
+
+        private void btnQuitter_Click(object sender, EventArgs e)
+        {
+            this.DialogResult = DialogResult.Cancel;
+        }
+
+
+        private void btnConnexion_Click(object sender, EventArgs e)
+        {
+            if (IsIdCorrect(txtIdentifiant.Text) & IsMotPasseCorrect(txtMDP.Text, txtIdentifiant.Text))
+            {
+                DialogResult = DialogResult.OK;
+            }
+            //else
+            //{
+            //    DialogResult = DialogResult.None;
+            //}
+        }
+        #endregion
     }
 }
 

@@ -16,3 +16,8 @@ E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synth�
 E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.csprojResolveAssemblyReference.cache
 E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.dll
 E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.pdb
+C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\bin\Debug\Utilitaires.dll
+C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\bin\Debug\Utilitaires.pdb
+C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.csprojResolveAssemblyReference.cache
+C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.dll
+C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Utilitaires\obj\Debug\Utilitaires.pdb

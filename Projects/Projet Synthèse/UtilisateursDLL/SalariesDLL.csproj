@@ -55,6 +55,7 @@
     <Compile Include="Utilisateurs.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Diag Classe Salaries.cd" />
   </ItemGroup>
   <ItemGroup>

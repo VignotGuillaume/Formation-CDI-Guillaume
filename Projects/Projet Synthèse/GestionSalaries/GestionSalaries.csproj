@@ -62,6 +62,12 @@
     <Compile Include="FrmUtilisateurs.Designer.cs">
       <DependentUpon>FrmUtilisateurs.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSalariés.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSalariés.Designer.cs">
+      <DependentUpon>FrmSalariés.cs</DependentUpon>
+    </Compile>
     <Compile Include="MonApplication.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -72,6 +78,9 @@
     <EmbeddedResource Include="FrmUtilisateurs.resx">
       <DependentUpon>FrmUtilisateurs.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FrmSalariés.resx">
+      <DependentUpon>FrmSalariés.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -81,6 +90,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Properties\DataSources\GestionSalaraies.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\GestionSalaraies.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">
