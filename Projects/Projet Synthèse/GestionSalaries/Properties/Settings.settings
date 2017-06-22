@@ -3,7 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="AppData" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">D:\Data</Value>
+      <Value Profile="(Default)">E:\</Value>
+    </Setting>
+    <Setting Name="Temps" Type="System.String" Scope="User">
+      <Value Profile="(Default)">3</Value>
     </Setting>
   </Settings>
 </SettingsFile>

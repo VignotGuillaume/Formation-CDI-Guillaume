@@ -6,11 +6,11 @@ using System.Globalization;
 [assembly: CLSCompliant(true)]
 namespace SalariesDll
 {
-   
+
     /// <summary>
     /// Type Salarie
     /// </summary>
-    [Serializable]
+    [Serializable()]
     public class Salarie
     {
 

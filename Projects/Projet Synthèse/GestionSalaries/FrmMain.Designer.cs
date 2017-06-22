@@ -29,16 +29,18 @@
         private void InitializeComponent()
         {
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
-            this.gestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDesUtilisateursToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.gestionDesSalariesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.gestionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gestionToolStripMenuItem});
+            this.gestionToolStripMenuItem,
+            this.toolStripMenuItem1});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.MdiWindowListItem = this.gestionToolStripMenuItem;
             this.menuStrip1.Name = "menuStrip1";
@@ -46,15 +48,10 @@
             this.menuStrip1.TabIndex = 1;
             this.menuStrip1.Text = "Gestion";
             // 
-            // gestionToolStripMenuItem
+            // toolStripMenuItem1
             // 
-            this.gestionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.gestionDesUtilisateursToolStripMenuItem,
-            this.gestionDesSalariesToolStripMenuItem});
-            this.gestionToolStripMenuItem.Enabled = false;
-            this.gestionToolStripMenuItem.Name = "gestionToolStripMenuItem";
-            this.gestionToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
-            this.gestionToolStripMenuItem.Text = "Gestion";
+            this.toolStripMenuItem1.Name = "toolStripMenuItem1";
+            this.toolStripMenuItem1.Size = new System.Drawing.Size(12, 20);
             // 
             // gestionDesUtilisateursToolStripMenuItem
             // 
@@ -69,6 +66,16 @@
             this.gestionDesSalariesToolStripMenuItem.Size = new System.Drawing.Size(196, 22);
             this.gestionDesSalariesToolStripMenuItem.Text = "Gestion des Salaries";
             this.gestionDesSalariesToolStripMenuItem.Click += new System.EventHandler(this.gestionDesSalariesToolStripMenuItem_Click);
+            // 
+            // gestionToolStripMenuItem
+            // 
+            this.gestionToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.gestionDesUtilisateursToolStripMenuItem,
+            this.gestionDesSalariesToolStripMenuItem});
+            this.gestionToolStripMenuItem.Enabled = false;
+            this.gestionToolStripMenuItem.Name = "gestionToolStripMenuItem";
+            this.gestionToolStripMenuItem.Size = new System.Drawing.Size(59, 20);
+            this.gestionToolStripMenuItem.Text = "Gestion";
             // 
             // FrmMain
             // 
@@ -95,5 +102,6 @@
         private System.Windows.Forms.ToolStripMenuItem gestionToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDesUtilisateursToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem gestionDesSalariesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem toolStripMenuItem1;
     }
 }

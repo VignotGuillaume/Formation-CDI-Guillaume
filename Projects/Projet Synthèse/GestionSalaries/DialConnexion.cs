@@ -109,10 +109,7 @@ namespace GestionSalaraies
             {
                 DialogResult = DialogResult.OK;
             }
-            //else
-            //{
-            //    DialogResult = DialogResult.None;
-            //}
+            
         }
         #endregion
     }

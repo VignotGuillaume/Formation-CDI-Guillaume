@@ -3,7 +3,10 @@
   <Profiles />
   <Settings>
     <Setting Name="AppData" Type="System.String" Scope="Application">
-      <Value Profile="(Default)">E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\Data</Value>
+      <Value Profile="(Default)">E:\</Value>
+    </Setting>
+    <Setting Name="Setting" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
     </Setting>
   </Settings>
 </SettingsFile>

@@ -44,7 +44,7 @@ namespace CreerJeuxEssai
                 Commission = 10
             });
             ISauvegarde sauvegarde = new SauvegardeXML();
-            salaries.Save(sauvegarde,Settings.Default.AppData);
+            salaries.Save(sauvegarde, Settings.Default.AppData);
 
             Roles roles = new Roles();
             roles.Add(new Role() { Identifiant = "Utilisateur", Description = "Utilisateur Application" });
@@ -55,10 +55,10 @@ namespace CreerJeuxEssai
             utilisateurs.Add(utilisateur);
             utilisateur = new Utilisateur() { Identifiant = "A7DC011", MotDePasse = "Jean1959", Nom = "Morillon", CompteBloque = false, Role = roles.ElementAt(0) };
             utilisateurs.Add(utilisateur);
-            utilisateurs.Save(sauvegarde,Settings.Default.AppData);
+            utilisateurs.Save(sauvegarde, Settings.Default.AppData);
             Console.WriteLine(roles.RechercherRole("Administrateur").ToString());
             Console.ReadLine();
-            roles.Save(sauvegarde,Settings.Default.AppData);
+            roles.Save(sauvegarde, Settings.Default.AppData);
         }
     }
 }

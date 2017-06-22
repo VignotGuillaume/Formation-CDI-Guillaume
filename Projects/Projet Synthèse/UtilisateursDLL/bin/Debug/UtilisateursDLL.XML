@@ -286,6 +286,13 @@
              <param name="Matricule"></param>
              <returns>Un salarié ou null si non trouvé</returns>
         </member>
+        <member name="M:SalariesDll.Salaries.SalarieByMatricule(System.String)">
+            <summary>
+            Extraire un salarie par son matricule
+            </summary>
+            <param name="Matricule"></param>
+            <returns></returns>
+        </member>
         <member name="M:SalariesDll.Salaries.SalariesNomCommencePar(System.String)">
             <summary>
             Extraction d'une liste spécialisée de salariés
@@ -304,6 +311,20 @@
             Suppresion d'un salarié 
             </summary>
             <param name="matricule">Matricule du salarié</param>
+        </member>
+        <member name="M:SalariesDll.Salaries.Save(Utilitaires.ISauvegarde,System.String)">
+            <summary>
+            Sauvegarde
+            </summary>
+            <param name="sauvegarde"></param>        
+            <param name="pathRepData"></param>
+        </member>
+        <member name="M:SalariesDll.Salaries.Load(Utilitaires.ISauvegarde,System.String)">
+            <summary>
+            Sauvegarde
+            </summary>
+            <param name="sauvegarde"></param>
+            <param name="pathRepData"></param>
         </member>
         <member name="M:SalariesDll.Utilisateur.IsMotPasseValide(System.String)">
              <summary>

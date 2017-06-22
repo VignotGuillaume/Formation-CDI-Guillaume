@@ -91,6 +91,7 @@
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <None Include="ClassDiagram1.cd" />
+    <None Include="ClassDiagram2.cd" />
     <None Include="Properties\DataSources\GestionSalaraies.Properties.Resources.datasource" />
     <None Include="Properties\DataSources\GestionSalaraies.Properties.Settings.datasource" />
     <None Include="Properties\Settings.settings">

@@ -1,6 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-//using System.Linq;
+using System.Linq;
 using System.ComponentModel;
 using System.Text;
 using System.Threading.Tasks;
@@ -29,6 +29,28 @@ namespace SalariesDll
             if (!this.Contains(salarie))
             { base.Add(salarie); }
         }
+
+
+
+
+        //public void Add(Commercial commercial)
+        //{
+        //    if (!this.Contains(commercial))
+        //    { base.Add(commercial); }
+        //}
+        //public void AddRange(IEnumerable<Commercial> salaries)
+        //{
+        //    foreach (Commercial item in salaries)
+        //    {
+        //        this.Add(item);
+        //    }
+        //}
+
+
+
+
+
+
         /// <summary>
         /// Ajout une liste de salariés
         /// </summary>
@@ -47,6 +69,22 @@ namespace SalariesDll
         /// <returns>Un salarié ou null si non trouvé</returns>
 
         public Salarie ExtraireSalarie(string Matricule)
+        {
+            foreach (Salarie salarie in this)
+            {
+                if (salarie.Matricule == Matricule)
+                {
+                    return salarie;
+                }
+            }
+            return null;
+        }
+        /// <summary>
+        /// Extraire un salarie par son matricule
+        /// </summary>
+        /// <param name="Matricule"></param>
+        /// <returns></returns>
+        public Salarie SalarieByMatricule(string Matricule)
         {
             foreach (Salarie salarie in this)
             {
@@ -106,12 +144,20 @@ namespace SalariesDll
             Salarie salrec = this.ExtraireSalarie(matricule);
             if (salrec != null) base.Remove(salrec);
         }
-
+        /// <summary>
+        /// Sauvegarde
+        /// </summary>
+        /// <param name="sauvegarde"></param>        
+        /// <param name="pathRepData"></param>
         public void Save(Utilitaires.ISauvegarde sauvegarde, string pathRepData)
         {
             sauvegarde.Save(pathRepData, this);
         }
-
+        /// <summary>
+        /// Sauvegarde
+        /// </summary>
+        /// <param name="sauvegarde"></param>
+        /// <param name="pathRepData"></param>
         public void Load(Utilitaires.ISauvegarde sauvegarde, string pathRepData)
         {
             this.SymmetricExceptWith((Salaries)sauvegarde.Load(pathRepData, this.GetType()));
