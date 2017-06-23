@@ -257,7 +257,7 @@
             this.comboBoxNom.Name = "comboBoxNom";
             this.comboBoxNom.Size = new System.Drawing.Size(166, 21);
             this.comboBoxNom.TabIndex = 5;
-            this.comboBoxNom.SelectedIndexChanged += new System.EventHandler(this.comboBoxNom_SelectedIndexChanged);
+            //this.comboBoxNom.SelectedIndexChanged += new System.EventHandler(this.comboBoxNom_SelectedIndexChanged);
             // 
             // FrmUtilisateurs
             // 

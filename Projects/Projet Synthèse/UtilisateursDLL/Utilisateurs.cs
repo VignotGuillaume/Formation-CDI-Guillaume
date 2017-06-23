@@ -15,6 +15,7 @@ namespace SalariesDll
     /// Utilisateurs de l'application
     /// </summary>
     [Serializable]
+
     public class Utilisateurs : HashSet<Utilisateur>,ICollectionMetier
     {
         /// <summary>
@@ -49,7 +50,7 @@ namespace SalariesDll
             }
             return liste;
         }
-        public Utilisateurs UtilisateursNomCommencePar(string debutNom)
+        public Utilisateurs utilisateursNomCommencePar2(string debutNom)
         {
             Utilisateurs utilisateurs = new Utilisateurs();
             foreach (Utilisateur item in this)

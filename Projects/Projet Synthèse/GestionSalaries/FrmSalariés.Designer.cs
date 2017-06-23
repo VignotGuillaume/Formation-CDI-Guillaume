@@ -32,7 +32,6 @@
             this.textBoxMatricule = new System.Windows.Forms.TextBox();
             this.textBoxNom = new System.Windows.Forms.TextBox();
             this.textBoxPrenom = new System.Windows.Forms.TextBox();
-            this.textBoxDatedeNaissance = new System.Windows.Forms.TextBox();
             this.textBoxSalaireBrut = new System.Windows.Forms.TextBox();
             this.comboBox1ListeSalarie = new System.Windows.Forms.ComboBox();
             this.button1Nouveau = new System.Windows.Forms.Button();
@@ -54,6 +53,7 @@
             this.button3Annuler = new System.Windows.Forms.Button();
             this.button4Valider = new System.Windows.Forms.Button();
             this.epSalarie = new System.Windows.Forms.ErrorProvider(this.components);
+            this.textBoxDatedeNaissance = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.epSalarie)).BeginInit();
@@ -80,19 +80,12 @@
             this.textBoxPrenom.Size = new System.Drawing.Size(168, 20);
             this.textBoxPrenom.TabIndex = 6;
             // 
-            // textBoxDatedeNaissance
-            // 
-            this.textBoxDatedeNaissance.Location = new System.Drawing.Point(128, 97);
-            this.textBoxDatedeNaissance.Name = "textBoxDatedeNaissance";
-            this.textBoxDatedeNaissance.Size = new System.Drawing.Size(168, 20);
-            this.textBoxDatedeNaissance.TabIndex = 7;
-            // 
             // textBoxSalaireBrut
             // 
             this.textBoxSalaireBrut.Location = new System.Drawing.Point(128, 123);
             this.textBoxSalaireBrut.Name = "textBoxSalaireBrut";
             this.textBoxSalaireBrut.Size = new System.Drawing.Size(168, 20);
-            this.textBoxSalaireBrut.TabIndex = 8;
+            this.textBoxSalaireBrut.TabIndex = 7;
             // 
             // comboBox1ListeSalarie
             // 
@@ -124,9 +117,11 @@
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.textBoxDatedeNaissance);
             this.groupBox1.Controls.Add(this.textBoxCommission);
             this.groupBox1.Controls.Add(this.textBoxChiffreAffaire);
             this.groupBox1.Controls.Add(this.textBoxTauxCS);
+            this.groupBox1.Controls.Add(this.textBoxSalaireBrut);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.label8);
             this.groupBox1.Controls.Add(this.label7);
@@ -139,8 +134,6 @@
             this.groupBox1.Controls.Add(this.textBoxMatricule);
             this.groupBox1.Controls.Add(this.textBoxNom);
             this.groupBox1.Controls.Add(this.textBoxPrenom);
-            this.groupBox1.Controls.Add(this.textBoxDatedeNaissance);
-            this.groupBox1.Controls.Add(this.textBoxSalaireBrut);
             this.groupBox1.Location = new System.Drawing.Point(36, 115);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(389, 344);
@@ -289,6 +282,15 @@
             // 
             this.epSalarie.ContainerControl = this;
             // 
+            // textBoxDatedeNaissance
+            // 
+            this.textBoxDatedeNaissance.Location = new System.Drawing.Point(128, 97);
+            this.textBoxDatedeNaissance.Mask = "00/00/0000";
+            this.textBoxDatedeNaissance.Name = "textBoxDatedeNaissance";
+            this.textBoxDatedeNaissance.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDatedeNaissance.TabIndex = 24;
+            this.textBoxDatedeNaissance.ValidatingType = typeof(System.DateTime);
+            // 
             // FrmSalaries
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -315,7 +317,6 @@
         private System.Windows.Forms.TextBox textBoxMatricule;
         private System.Windows.Forms.TextBox textBoxNom;
         private System.Windows.Forms.TextBox textBoxPrenom;
-        private System.Windows.Forms.TextBox textBoxDatedeNaissance;
         private System.Windows.Forms.TextBox textBoxSalaireBrut;
         private System.Windows.Forms.ComboBox comboBox1ListeSalarie;
         private System.Windows.Forms.Button button1Nouveau;
@@ -337,5 +338,6 @@
         private System.Windows.Forms.Button button3Annuler;
         private System.Windows.Forms.Button button4Valider;
         private System.Windows.Forms.ErrorProvider epSalarie;
+        private System.Windows.Forms.MaskedTextBox textBoxDatedeNaissance;
     }
 }

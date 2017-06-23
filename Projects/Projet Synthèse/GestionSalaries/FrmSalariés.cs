@@ -18,6 +18,7 @@ namespace GestionSalaraies
         Salaries salaries;
         Salarie salarie;
         Commercial commercial;
+        bool etat = true;
         
         enum Contextes
         {
@@ -60,8 +61,8 @@ namespace GestionSalaraies
                     textBoxMatricule.ReadOnly = true;
                     textBoxNom.ReadOnly = true;
                     textBoxPrenom.ReadOnly = true;
-                    textBoxDatedeNaissance.ReadOnly = true;
                     textBoxSalaireBrut.ReadOnly = true;
+                    textBoxDatedeNaissance.ReadOnly = true;
                     textBoxTauxCS.ReadOnly = true;
                     textBoxChiffreAffaire.ReadOnly = true;
                     textBoxCommission.ReadOnly = true;
@@ -76,19 +77,22 @@ namespace GestionSalaraies
                     button2Modifier.Enabled = false;
                     button3Annuler.Enabled = true;
                     button4Valider.Enabled = true;
-                    textBoxMatricule.ReadOnly = false;
+                    textBoxMatricule.ReadOnly = true;
                     textBoxNom.ReadOnly = false;
                     textBoxPrenom.ReadOnly = false;
-                    textBoxDatedeNaissance.ReadOnly = false;
                     textBoxSalaireBrut.ReadOnly = false;
+                    textBoxDatedeNaissance.ReadOnly = false;
                     textBoxTauxCS.ReadOnly = false;
                     textBoxChiffreAffaire.ReadOnly = false;
                     textBoxCommission.ReadOnly = false;
+                    
                     break;
                 case Contextes.ModificationAnnuler:
+                    ChargerValeursSalarie();
                     GestionnaireContextes(Contextes.Consultation);
                     break;
                 case Contextes.ModificationValider:
+                    bool etat = false;                  
                     GestionnaireContextes(Contextes.Consultation);
                     break;
                 case Contextes.AjoutInitial:
@@ -101,13 +105,15 @@ namespace GestionSalaraies
                     textBoxMatricule.ReadOnly = false;
                     textBoxNom.ReadOnly = false;
                     textBoxPrenom.ReadOnly = false;
-                    textBoxDatedeNaissance.ReadOnly = false;
                     textBoxSalaireBrut.ReadOnly = false;
+                    textBoxDatedeNaissance.ReadOnly = false;
                     textBoxTauxCS.ReadOnly = false;
                     textBoxChiffreAffaire.ReadOnly = false;
                     textBoxCommission.ReadOnly = false;
                     break;
                 case Contextes.AjoutValider:
+                    etat = true;
+                    
                     GestionnaireContextes(Contextes.Consultation);
 
                     break;
@@ -122,11 +128,11 @@ namespace GestionSalaraies
             textBoxMatricule.Text = salarie.Matricule;
             textBoxNom.Text = salarie.Nom;
             textBoxPrenom.Text = salarie.Prenom;
+            textBoxSalaireBrut.Text = salarie.SalaireBrut.ToString();            
             textBoxDatedeNaissance.Text = salarie.DateNaissance.ToString();
-            textBoxSalaireBrut.Text = salarie.SalaireBrut.ToString();
-            textBoxTauxCS.Text = salarie.ToString();
-            textBoxChiffreAffaire.Text = commercial.ChiffreAffaire.ToString();
-            textBoxCommission.Text = commercial.Commission.ToString();
+            textBoxTauxCS.Text = salarie.TauxCS.ToString();
+            //textBoxChiffreAffaire.Text = commercial.ChiffreAffaire.ToString();
+            //textBoxCommission.Text = commercial.Commission.ToString();
 
 
         }
@@ -148,37 +154,36 @@ namespace GestionSalaraies
 
         private void ModifierSalarie()
         {            
-            if (IsChampValid())
-            {
-                try
-                {
-                    textBoxMatricule.Text = salarie.Matricule ;
+            
+                    salarie.Matricule = textBoxMatricule.Text;
                     salarie.Nom = textBoxNom.Text;
                     salarie.Prenom = textBoxPrenom.Text;
                     salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
                     salarie.SalaireBrut = Decimal.Parse(textBoxSalaireBrut.Text);
                     salarie.TauxCS = Decimal.Parse(textBoxTauxCS.Text);
-                    commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
-                    commercial.Commission = Decimal.Parse(textBoxCommission.Text);
-                }
-                catch (Exception)
-                {
+            //commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
+            //commercial.Commission = Decimal.Parse(textBoxCommission.Text);
+            salaries.Save(MonApplication.DispositifSauvegarde, Settings.Default.AppData);
+            //save
 
-                }
-                
-            }
         }
         
         private void ChargerSalaries()
         {
             salaries = new Salaries();
-            commercial = new Commercial();
+           
             ISauvegarde serialiseur = MonApplication.DispositifSauvegarde;
             salaries.Load(serialiseur, Properties.Settings.Default.AppData);
             foreach (Salarie item in salaries)
             {
                 comboBox1ListeSalarie.Items.Add(item.Matricule);
             }
+        }
+        private void SauvegarderSalaries()
+        {
+           
+            salaries.Save(MonApplication.DispositifSauvegarde, Settings.Default.AppData);
+
         }
 
         //---------------------------------------------------------------------------------------
@@ -211,48 +216,47 @@ namespace GestionSalaraies
 
             GestionnaireContextes(Contextes.AjoutInitial);
 
-            if (IsChampValid())
-            {
-                try
-                {
-                    textBoxMatricule.Text = salarie.Matricule;
-                    salarie.Nom = textBoxNom.Text;
-                    salarie.Prenom = textBoxPrenom.Text;
-                    salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
-                    salarie.SalaireBrut = Decimal.Parse(textBoxSalaireBrut.Text);
-                    salarie.TauxCS = Decimal.Parse(textBoxTauxCS.Text);
-                    commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
-                    commercial.Commission = Decimal.Parse(textBoxCommission.Text);
-                }
-                catch (Exception)
-                {
-
-                }
-                GestionnaireContextes(Contextes.AjoutValider);
-            }
+           
         }
 
         private void button4Valider_Click(object sender, EventArgs e)
         {
-            if (IsChampValid())
+            if (/*true*/)
             {
-                try
-                {
-                    textBoxMatricule.Text = salarie.Matricule;
-                    salarie.Nom = textBoxNom.Text;
-                    salarie.Prenom = textBoxPrenom.Text;
-                    salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
-                    salarie.SalaireBrut = Decimal.Parse(textBoxSalaireBrut.Text);
-                    salarie.TauxCS = Decimal.Parse(textBoxTauxCS.Text);
-                    commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
-                    commercial.Commission = Decimal.Parse(textBoxCommission.Text);
-                }
-                catch (Exception)
-                {
+                ajout();
+                ChargerSalaries();
 
-                }
                 GestionnaireContextes(Contextes.Consultation);
             }
+            else
+            {
+                ModifierSalarie();
+                ChargerSalaries();
+                GestionnaireContextes(Contextes.Consultation);
+            }
+
+            
+            
+        }
+
+        private void ajout()
+
+        {
+           
+            salarie = new Salarie();
+
+            salarie.Matricule = textBoxMatricule.Text;
+            salarie.Nom = textBoxNom.Text;
+            salarie.Prenom = textBoxPrenom.Text;
+            salarie.DateNaissance = DateTime.Parse(textBoxDatedeNaissance.Text);
+            salarie.SalaireBrut = decimal.Parse(textBoxSalaireBrut.Text);
+            salarie.TauxCS = decimal.Parse(textBoxTauxCS.Text);
+            //commercial.ChiffreAffaire = Decimal.Parse(textBoxChiffreAffaire.Text);
+            //commercial.Commission = Decimal.Parse(textBoxCommission.Text);
+            salaries.Add(salarie);
+            salaries.Save(MonApplication.DispositifSauvegarde, Settings.Default.AppData);
+            }
+           
         }
     }
 

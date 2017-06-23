@@ -25,8 +25,8 @@ namespace CreerJeuxEssai {
         
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("C:\\Users\\guigui\\Documents\\GitHub\\Formation-CDI-Guillaume\\Projects\\Projet Synthèse" +
-            "\\Data")]
+        [global::System.Configuration.DefaultSettingValueAttribute("E:\\Formation CDI Guillaume GitHub\\Formation-CDI-Guillaume\\Projects\\Projet Synthès" +
+            "e\\Data")]
         public string AppData {
             get {
                 return ((string)(this["AppData"]));

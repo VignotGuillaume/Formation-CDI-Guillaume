@@ -80,6 +80,7 @@ namespace GestionSalaraies
                     cbRoles.Enabled = true;
                     break;
                 case Contextes.ModificationAnnuler:
+                    ChargerValeursUtilisateur();
                     GestionnaireContextes(Contextes.Consultation);
                     break;
                 case Contextes.ModificationValider:
@@ -178,6 +179,17 @@ namespace GestionSalaraies
                 cbUtilisateurs.Items.Add(item.Identifiant);
             }
         }
+        private void ChargerUtilisateursNom()
+        {
+            utilisateurs = new Utilisateurs();
+            ISauvegarde serialiseur = MonApplication.DispositifSauvegarde;
+            utilisateurs.Load(serialiseur, Properties.Settings.Default.AppData);
+            foreach (Utilisateur item in utilisateurs)
+            {
+                cbUtilisateurs.Items.Add(item.Nom);
+            }
+        }
+
 
         private void FrmUtilisateurs_Load(object sender, EventArgs e)
         {
@@ -205,11 +217,11 @@ namespace GestionSalaraies
 
         
 
-        private void comboBoxNom_SelectedIndexChanged(object sender, EventArgs e)
-        {
-            utilisateurs = utilisateurs.UtilisateursNomCommencePar(comboBoxNom.Items[comboBoxNom.SelectedIndex].ToString());
-            ChargerValeursUtilisateur();
-            GestionnaireContextes(Contextes.Consultation);
-        }
+        //private void comboBoxNom_SelectedIndexChanged(object sender, EventArgs e)
+        //{
+        //    utilisateur = utilisateur.Nom.utilisateurNomCommencePar(comboBoxNom.Items[comboBoxNom.SelectedIndex].ToString());
+        //    ChargerValeursUtilisateur();
+        //    GestionnaireContextes(Contextes.Consultation);
+        //}
     }
 }
