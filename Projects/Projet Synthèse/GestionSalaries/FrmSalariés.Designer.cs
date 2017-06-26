@@ -37,6 +37,7 @@
             this.button1Nouveau = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.textBoxDatedeNaissance = new System.Windows.Forms.MaskedTextBox();
             this.textBoxCommission = new System.Windows.Forms.TextBox();
             this.textBoxChiffreAffaire = new System.Windows.Forms.TextBox();
             this.textBoxTauxCS = new System.Windows.Forms.TextBox();
@@ -53,7 +54,6 @@
             this.button3Annuler = new System.Windows.Forms.Button();
             this.button4Valider = new System.Windows.Forms.Button();
             this.epSalarie = new System.Windows.Forms.ErrorProvider(this.components);
-            this.textBoxDatedeNaissance = new System.Windows.Forms.MaskedTextBox();
             this.groupBox1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.epSalarie)).BeginInit();
@@ -140,6 +140,15 @@
             this.groupBox1.TabIndex = 12;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details Salarie";
+            // 
+            // textBoxDatedeNaissance
+            // 
+            this.textBoxDatedeNaissance.Location = new System.Drawing.Point(128, 97);
+            this.textBoxDatedeNaissance.Mask = "00/00/0000";
+            this.textBoxDatedeNaissance.Name = "textBoxDatedeNaissance";
+            this.textBoxDatedeNaissance.Size = new System.Drawing.Size(100, 20);
+            this.textBoxDatedeNaissance.TabIndex = 24;
+            this.textBoxDatedeNaissance.ValidatingType = typeof(System.DateTime);
             // 
             // textBoxCommission
             // 
@@ -281,15 +290,6 @@
             // epSalarie
             // 
             this.epSalarie.ContainerControl = this;
-            // 
-            // textBoxDatedeNaissance
-            // 
-            this.textBoxDatedeNaissance.Location = new System.Drawing.Point(128, 97);
-            this.textBoxDatedeNaissance.Mask = "00/00/0000";
-            this.textBoxDatedeNaissance.Name = "textBoxDatedeNaissance";
-            this.textBoxDatedeNaissance.Size = new System.Drawing.Size(100, 20);
-            this.textBoxDatedeNaissance.TabIndex = 24;
-            this.textBoxDatedeNaissance.ValidatingType = typeof(System.DateTime);
             // 
             // FrmSalaries
             // 

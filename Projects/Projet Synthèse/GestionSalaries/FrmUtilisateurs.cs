@@ -217,11 +217,6 @@ namespace GestionSalaraies
 
         
 
-        //private void comboBoxNom_SelectedIndexChanged(object sender, EventArgs e)
-        //{
-        //    utilisateur = utilisateur.Nom.utilisateurNomCommencePar(comboBoxNom.Items[comboBoxNom.SelectedIndex].ToString());
-        //    ChargerValeursUtilisateur();
-        //    GestionnaireContextes(Contextes.Consultation);
-        //}
+       
     }
 }

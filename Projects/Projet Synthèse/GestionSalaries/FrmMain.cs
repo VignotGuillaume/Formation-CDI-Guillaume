@@ -22,7 +22,8 @@ namespace GestionSalaraies
         private void FrmMain_Shown(object sender, EventArgs e)
         {
             DialConnexion DialogueModal = new DialConnexion();
-            DialogResult resultat = DialogueModal.ShowDialog();
+            //  DialogResult resultat = DialogueModal.ShowDialog();
+            DialogResult resultat = DialogResult.OK;
             switch (resultat)
             {
                 case DialogResult.None:
