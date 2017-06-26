@@ -54,6 +54,7 @@
             this.button3Annuler = new System.Windows.Forms.Button();
             this.button4Valider = new System.Windows.Forms.Button();
             this.epSalarie = new System.Windows.Forms.ErrorProvider(this.components);
+            this.button1Effacer = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.flowLayoutPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.epSalarie)).BeginInit();
@@ -64,28 +65,28 @@
             this.textBoxMatricule.Location = new System.Drawing.Point(128, 19);
             this.textBoxMatricule.Name = "textBoxMatricule";
             this.textBoxMatricule.Size = new System.Drawing.Size(168, 20);
-            this.textBoxMatricule.TabIndex = 4;
+            this.textBoxMatricule.TabIndex = 0;
             // 
             // textBoxNom
             // 
             this.textBoxNom.Location = new System.Drawing.Point(128, 45);
             this.textBoxNom.Name = "textBoxNom";
             this.textBoxNom.Size = new System.Drawing.Size(168, 20);
-            this.textBoxNom.TabIndex = 5;
+            this.textBoxNom.TabIndex = 1;
             // 
             // textBoxPrenom
             // 
             this.textBoxPrenom.Location = new System.Drawing.Point(128, 71);
             this.textBoxPrenom.Name = "textBoxPrenom";
             this.textBoxPrenom.Size = new System.Drawing.Size(168, 20);
-            this.textBoxPrenom.TabIndex = 6;
+            this.textBoxPrenom.TabIndex = 2;
             // 
             // textBoxSalaireBrut
             // 
             this.textBoxSalaireBrut.Location = new System.Drawing.Point(128, 123);
             this.textBoxSalaireBrut.Name = "textBoxSalaireBrut";
             this.textBoxSalaireBrut.Size = new System.Drawing.Size(168, 20);
-            this.textBoxSalaireBrut.TabIndex = 7;
+            this.textBoxSalaireBrut.TabIndex = 4;
             // 
             // comboBox1ListeSalarie
             // 
@@ -93,7 +94,7 @@
             this.comboBox1ListeSalarie.Location = new System.Drawing.Point(175, 36);
             this.comboBox1ListeSalarie.Name = "comboBox1ListeSalarie";
             this.comboBox1ListeSalarie.Size = new System.Drawing.Size(121, 21);
-            this.comboBox1ListeSalarie.TabIndex = 9;
+            this.comboBox1ListeSalarie.TabIndex = 0;
             this.comboBox1ListeSalarie.SelectedIndexChanged += new System.EventHandler(this.comboBox1ListeSalarie_SelectedIndexChanged);
             // 
             // button1Nouveau
@@ -101,7 +102,7 @@
             this.button1Nouveau.Location = new System.Drawing.Point(350, 34);
             this.button1Nouveau.Name = "button1Nouveau";
             this.button1Nouveau.Size = new System.Drawing.Size(75, 23);
-            this.button1Nouveau.TabIndex = 10;
+            this.button1Nouveau.TabIndex = 2;
             this.button1Nouveau.Text = "Nouveau";
             this.button1Nouveau.UseVisualStyleBackColor = true;
             this.button1Nouveau.Click += new System.EventHandler(this.button1Nouveau_Click);
@@ -112,7 +113,7 @@
             this.label1.Location = new System.Drawing.Point(33, 39);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(86, 13);
-            this.label1.TabIndex = 11;
+            this.label1.TabIndex = 3;
             this.label1.Text = "Choisir un salarie";
             // 
             // groupBox1
@@ -137,7 +138,7 @@
             this.groupBox1.Location = new System.Drawing.Point(36, 115);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(389, 344);
-            this.groupBox1.TabIndex = 12;
+            this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Details Salarie";
             // 
@@ -147,7 +148,7 @@
             this.textBoxDatedeNaissance.Mask = "00/00/0000";
             this.textBoxDatedeNaissance.Name = "textBoxDatedeNaissance";
             this.textBoxDatedeNaissance.Size = new System.Drawing.Size(100, 20);
-            this.textBoxDatedeNaissance.TabIndex = 24;
+            this.textBoxDatedeNaissance.TabIndex = 3;
             this.textBoxDatedeNaissance.ValidatingType = typeof(System.DateTime);
             // 
             // textBoxCommission
@@ -156,7 +157,7 @@
             this.textBoxCommission.Location = new System.Drawing.Point(128, 209);
             this.textBoxCommission.Name = "textBoxCommission";
             this.textBoxCommission.Size = new System.Drawing.Size(168, 20);
-            this.textBoxCommission.TabIndex = 23;
+            this.textBoxCommission.TabIndex = 7;
             // 
             // textBoxChiffreAffaire
             // 
@@ -164,14 +165,14 @@
             this.textBoxChiffreAffaire.Location = new System.Drawing.Point(128, 180);
             this.textBoxChiffreAffaire.Name = "textBoxChiffreAffaire";
             this.textBoxChiffreAffaire.Size = new System.Drawing.Size(168, 20);
-            this.textBoxChiffreAffaire.TabIndex = 22;
+            this.textBoxChiffreAffaire.TabIndex = 6;
             // 
             // textBoxTauxCS
             // 
             this.textBoxTauxCS.Location = new System.Drawing.Point(128, 151);
             this.textBoxTauxCS.Name = "textBoxTauxCS";
             this.textBoxTauxCS.Size = new System.Drawing.Size(168, 20);
-            this.textBoxTauxCS.TabIndex = 21;
+            this.textBoxTauxCS.TabIndex = 5;
             // 
             // label9
             // 
@@ -180,7 +181,7 @@
             this.label9.Location = new System.Drawing.Point(26, 212);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(62, 13);
-            this.label9.TabIndex = 20;
+            this.label9.TabIndex = 8;
             this.label9.Text = "Commission";
             // 
             // label8
@@ -190,7 +191,7 @@
             this.label8.Location = new System.Drawing.Point(26, 183);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(78, 13);
-            this.label8.TabIndex = 19;
+            this.label8.TabIndex = 9;
             this.label8.Text = "Chiffre d\'Affaire";
             // 
             // label7
@@ -199,7 +200,7 @@
             this.label7.Location = new System.Drawing.Point(26, 154);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(45, 13);
-            this.label7.TabIndex = 18;
+            this.label7.TabIndex = 10;
             this.label7.Text = "TauxCS";
             // 
             // label6
@@ -208,7 +209,7 @@
             this.label6.Location = new System.Drawing.Point(26, 126);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(61, 13);
-            this.label6.TabIndex = 14;
+            this.label6.TabIndex = 11;
             this.label6.Text = "Salaire Brut";
             // 
             // label5
@@ -217,7 +218,7 @@
             this.label5.Location = new System.Drawing.Point(26, 100);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(100, 13);
-            this.label5.TabIndex = 13;
+            this.label5.TabIndex = 12;
             this.label5.Text = "Date De Naissance";
             // 
             // label4
@@ -226,7 +227,7 @@
             this.label4.Location = new System.Drawing.Point(26, 74);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(43, 13);
-            this.label4.TabIndex = 12;
+            this.label4.TabIndex = 13;
             this.label4.Text = "Prenom";
             // 
             // label3
@@ -235,7 +236,7 @@
             this.label3.Location = new System.Drawing.Point(26, 48);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(29, 13);
-            this.label3.TabIndex = 11;
+            this.label3.TabIndex = 14;
             this.label3.Text = "Nom";
             // 
             // label2
@@ -244,7 +245,7 @@
             this.label2.Location = new System.Drawing.Point(26, 22);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(50, 13);
-            this.label2.TabIndex = 10;
+            this.label2.TabIndex = 15;
             this.label2.Text = "Matricule";
             // 
             // flowLayoutPanel1
@@ -252,17 +253,18 @@
             this.flowLayoutPanel1.Controls.Add(this.button2Modifier);
             this.flowLayoutPanel1.Controls.Add(this.button3Annuler);
             this.flowLayoutPanel1.Controls.Add(this.button4Valider);
+            this.flowLayoutPanel1.Controls.Add(this.button1Effacer);
             this.flowLayoutPanel1.Location = new System.Drawing.Point(29, 254);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Size = new System.Drawing.Size(354, 61);
-            this.flowLayoutPanel1.TabIndex = 9;
+            this.flowLayoutPanel1.TabIndex = 7;
             // 
             // button2Modifier
             // 
             this.button2Modifier.Location = new System.Drawing.Point(3, 3);
             this.button2Modifier.Name = "button2Modifier";
             this.button2Modifier.Size = new System.Drawing.Size(108, 23);
-            this.button2Modifier.TabIndex = 0;
+            this.button2Modifier.TabIndex = 1;
             this.button2Modifier.Text = "Modifier";
             this.button2Modifier.UseVisualStyleBackColor = true;
             this.button2Modifier.Click += new System.EventHandler(this.button2Modifier_Click);
@@ -272,7 +274,7 @@
             this.button3Annuler.Location = new System.Drawing.Point(117, 3);
             this.button3Annuler.Name = "button3Annuler";
             this.button3Annuler.Size = new System.Drawing.Size(114, 23);
-            this.button3Annuler.TabIndex = 1;
+            this.button3Annuler.TabIndex = 2;
             this.button3Annuler.Text = "Annuler";
             this.button3Annuler.UseVisualStyleBackColor = true;
             this.button3Annuler.Click += new System.EventHandler(this.button3Annuler_Click);
@@ -282,7 +284,7 @@
             this.button4Valider.Location = new System.Drawing.Point(237, 3);
             this.button4Valider.Name = "button4Valider";
             this.button4Valider.Size = new System.Drawing.Size(111, 23);
-            this.button4Valider.TabIndex = 2;
+            this.button4Valider.TabIndex = 3;
             this.button4Valider.Text = "Valider";
             this.button4Valider.UseVisualStyleBackColor = true;
             this.button4Valider.Click += new System.EventHandler(this.button4Valider_Click);
@@ -290,6 +292,16 @@
             // epSalarie
             // 
             this.epSalarie.ContainerControl = this;
+            // 
+            // button1Effacer
+            // 
+            this.button1Effacer.Location = new System.Drawing.Point(3, 32);
+            this.button1Effacer.Name = "button1Effacer";
+            this.button1Effacer.Size = new System.Drawing.Size(75, 23);
+            this.button1Effacer.TabIndex = 3;
+            this.button1Effacer.Text = "Effacer";
+            this.button1Effacer.UseVisualStyleBackColor = true;
+            this.button1Effacer.Click += new System.EventHandler(this.button1Effacer_Click);
             // 
             // FrmSalaries
             // 
@@ -339,5 +351,6 @@
         private System.Windows.Forms.Button button4Valider;
         private System.Windows.Forms.ErrorProvider epSalarie;
         private System.Windows.Forms.MaskedTextBox textBoxDatedeNaissance;
+        private System.Windows.Forms.Button button1Effacer;
     }
 }

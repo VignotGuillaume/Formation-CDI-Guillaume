@@ -187,6 +187,9 @@ namespace SalariesDll
             }
             return true;
         }
+
+        
+
         public static bool IsDateNaissanceValide(DateTime value)
         {
             if (value.CompareTo(new DateTime(1900, 01, 01)) < 0) return false; 
