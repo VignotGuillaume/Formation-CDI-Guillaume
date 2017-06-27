@@ -30,22 +30,6 @@ D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003
 D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmUtilisateurs.resources
 D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.Properties.Resources.resources
 D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csproj.GenerateResource.Cache
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe.config
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.exe
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\UtilisateursDLL.dll
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\Utilitaires.dll
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\UtilisateursDLL.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\UtilisateursDLL.xml
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\Utilitaires.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csprojResolveAssemblyReference.cache
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.DialConnexion.resources
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmUtilisateurs.resources
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.Properties.Resources.resources
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csproj.GenerateResource.Cache
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmMain.resources
 C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe.config
 C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.exe
 C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.pdb
@@ -65,7 +49,6 @@ C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\P
 F:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe.config
 F:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.exe
 F:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmSalaries.resources
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe.config
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.exe
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.pdb
@@ -83,3 +66,20 @@ C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthè
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmSalaries.resources
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.Properties.Resources.resources
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csproj.GenerateResource.Cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe.config
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\GestionSalaraies.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\UtilisateursDLL.dll
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\Utilitaires.dll
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\UtilisateursDLL.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\UtilisateursDLL.xml
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\bin\Debug\Utilitaires.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csprojResolveAssemblyReference.cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.DialConnexion.resources
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmMain.resources
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmUtilisateurs.resources
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.FrmSalaries.resources
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.Properties.Resources.resources
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaries.csproj.GenerateResource.Cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.exe
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\GestionSalaries\obj\Debug\GestionSalaraies.pdb

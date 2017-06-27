@@ -31,14 +31,6 @@ D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003
 D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\UtilisateursDLL\bin\Debug\Utilitaires.dll
 D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\UtilisateursDLL\bin\Debug\Utilitaires.pdb
 D:\ParcoursCDIModulaire\M1 - Dév Interface App Info\05 UI Windows\Ateliers\A003\Projet Synthèse\UtilisateursDLL\obj\Debug\SalariesDLL.csprojResolveAssemblyReference.cache
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.XML
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.dll
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\Utilitaires.dll
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\Utilitaires.pdb
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\SalariesDLL.csprojResolveAssemblyReference.cache
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\UtilisateursDLL.dll
-E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\UtilisateursDLL.pdb
 C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.XML
 C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.dll
 C:\Users\guigui\Desktop\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.pdb
@@ -55,3 +47,11 @@ C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthè
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\SalariesDLL.csprojResolveAssemblyReference.cache
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\UtilisateursDLL.dll
 C:\Users\guigui\Documents\GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\UtilisateursDLL.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.XML
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.dll
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\UtilisateursDLL.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\Utilitaires.dll
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\bin\Debug\Utilitaires.pdb
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\SalariesDLL.csprojResolveAssemblyReference.cache
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\UtilisateursDLL.dll
+E:\Formation CDI Guillaume GitHub\Formation-CDI-Guillaume\Projects\Projet Synthèse\UtilisateursDLL\obj\Debug\UtilisateursDLL.pdb
