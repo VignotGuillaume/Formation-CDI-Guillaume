@@ -259,33 +259,33 @@ namespace GestionSalaraies
             comboBox1ListeSalarie.ResetText();
         }
 
-        private void SupprimerSalarie()
-        {
+        //private void SupprimerSalarie()
+        //{
 
-            MessageBox.Show("etes-vous sur");
-          //cours++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-           DialogResult suppressionResult = MessageBox.ShowDialog();
+        //    MessageBox.Show("etes-vous sur");
+        //  //cours++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+        //   DialogResult suppressionResult = MessageBox.ShowDialog();
 
-            switch (suppressionResult)
-            {
-                case DialogResult.None:
-                    SuppressionModal.ShowDialog();
-                    break;
+        //    switch (suppressionResult)
+        //    {
+        //        case DialogResult.None:
+        //            SuppressionModal.ShowDialog();
+        //            break;
 
-                case DialogResult.OK:
-                    salaries.Remove(salarie);
-                    salaries.Save(MonApplication.DispositifSauvegarde, Settings.Default.AppData);
-                    break;
+        //        case DialogResult.OK:
+        //            salaries.Remove(salarie);
+        //            salaries.Save(MonApplication.DispositifSauvegarde, Settings.Default.AppData);
+        //            break;
 
-                case DialogResult.Cancel:
-                    SuppressionModal.Close();
-                    Close();
-                    break;
+        //        case DialogResult.Cancel:
+        //            SuppressionModal.Close();
+        //            Close();
+        //            break;
 
-            }
+        //    }
                    
 
-        }
+        //}
         #endregion
 
         #region Validité
@@ -475,9 +475,9 @@ namespace GestionSalaraies
 
         private void button1Effacer_Click(object sender, EventArgs e)
         {
-            GestionnaireContextes(Contextes.Consultation);
-            SupprimerSalarie();
-            GestionnaireContextes(Contextes.Initial);
+            //GestionnaireContextes(Contextes.Consultation);
+            //SupprimerSalarie();
+            //GestionnaireContextes(Contextes.Initial);
             
         }
     }
